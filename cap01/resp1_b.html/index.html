@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2 HTML</title>
+</head>
+<body>
+    <!--b) Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão pagá-la. 
+        Calcule e informe o valor a ser pago por cliente.-->
+    <script>
+        const value = Number(prompt("Inclua o valor total: "))
+        const client = Number(prompt("Inclua o número de pessoas que dividirão o valor total: "))
+        const total = value / client
+        alert(`Valor a ser dividido entre os clientes é R$: ${total.toFixed(2)}`)
+    </script>
+</body>
+</html>
