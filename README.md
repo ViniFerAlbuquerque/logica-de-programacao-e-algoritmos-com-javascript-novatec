@@ -4,4 +4,5 @@
 <p>1.1.1 Compreender o que foi pedido!</p>
 <p>1.1.2 Realizar deduções na construção do programa</p>
 <p>1.1.3 Enumerar as etapas a serem realizadas</p>
+<p>1.1.4 Analisar outras possibilidades de solução</p>
 
