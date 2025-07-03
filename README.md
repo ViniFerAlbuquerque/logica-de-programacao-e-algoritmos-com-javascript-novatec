@@ -7,4 +7,5 @@
 <p>1.1.4 Analisar outras possibilidades de solução</p>
 <p>1.1.5 Ensinar ao computador uma solução</p>
 <p>1.1.6 Pensar em todos os detalhes</p>
+<h4>  1.2 - Entrada, procesamento e saída</h4>
 
