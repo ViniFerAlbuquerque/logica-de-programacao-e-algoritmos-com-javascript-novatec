@@ -9,4 +9,5 @@
 <p>1.1.6 Pensar em todos os detalhes</p>
 <h4>  1.2 - Entrada, procesamento e saída</h4>
 <h4>  1.3 - JavaScript</h4>
+<h4>  1.4 - Editores de código JavaScript</h4>
 
