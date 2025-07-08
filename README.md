@@ -11,4 +11,5 @@
 <h4>  1.3 - JavaScript</h4>
 <h4>  1.4 - Editores de código JavaScript</h4>
 <h4>  1.5 - Saída de dados com alert() e console.log()</h4>
+<h4>  1.6 - Variáveis e constantes</h4>
 
