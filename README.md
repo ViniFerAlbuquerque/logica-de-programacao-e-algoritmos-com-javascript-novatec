@@ -13,4 +13,6 @@
 <h4>  1.5 - Saída de dados com alert() e console.log()</h4>
 <h4>  1.6 - Variáveis e constantes</h4>
 <h4>  1.7 - Entrada de dados com prompt()</h4>
+<h4>  1.8 - Comentários</h4>
+<h4>  1.9 - Tipos de dados e conversões de tipos</h4>
 
