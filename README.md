@@ -1,5 +1,5 @@
 <h1>Lógica de Programação e Algoritmos com JavaScript - 2ª Edição da Novatec, do autor Edécio Fernando Iepsen.</h1>
-<h3>1 CAPÍTULO 1 ■ Introdução
+<h3>1 CAPÍTULO 1 ■ Introdução</h3>
 <h4>  1.1 - Lógica de programação</h4>
 <p>1.1.1 Compreender o que foi pedido!</p>
 <p>1.1.2 Realizar deduções na construção do programa</p>
@@ -16,4 +16,7 @@
 <h4>  1.8 - Comentários</h4>
 <h4>  1.9 - Tipos de dados e conversões de tipos</h4>
 <h4>  1.10- Exemplos de entrada, processamento e saída</h4>
+<h4>  1.11- Exercícios</h4>
+<h4>  1.12- Considerações finais do capítulo</h4>
+<h3>2 CAPÍTULO 2 ■ Integração com HTML</h3>
 
