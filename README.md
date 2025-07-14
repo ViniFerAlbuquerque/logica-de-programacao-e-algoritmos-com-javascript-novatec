@@ -19,4 +19,5 @@
 <h4>  1.11- Exercícios</h4>
 <h4>  1.12- Considerações finais do capítulo</h4>
 <h3>2 CAPÍTULO 2 ■ Integração com HTML</h3>
+<h4>  2.1 - Estrutura básica de um documento HTML</h4>
 
