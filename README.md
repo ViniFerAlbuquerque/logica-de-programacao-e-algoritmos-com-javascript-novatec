@@ -22,4 +22,5 @@
 <h4>  2.1 - Estrutura básica de um documento HTML</h4>
 <h4>  2.2 - Cabeçalhos, parágrafos e campos de formulário</h4>
 <h4>  2.3 - Criação do programa JavaScript</h4>
+<h4>  2.4 - Métodos querySelector() e getElementById()</h4>
 
