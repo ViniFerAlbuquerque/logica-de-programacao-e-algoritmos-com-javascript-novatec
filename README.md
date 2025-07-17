@@ -23,4 +23,5 @@
 <h4>  2.2 - Cabeçalhos, parágrafos e campos de formulário</h4>
 <h4>  2.3 - Criação do programa JavaScript</h4>
 <h4>  2.4 - Métodos querySelector() e getElementById()</h4>
+<h4>  2.5 - Introdução a eventos e funções</h4>
 
