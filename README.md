@@ -26,4 +26,5 @@
 <h4>  2.5 - Introdução a eventos e funções</h4>
 <h4>  2.6 - Propriedades innerText, innerHTML e value</h4>
 <h4>  2.7 - Método preventDefault()</h4>
+<h4>  2.8 - Operadores aritméticos e funções matemáticas</h4>
 
