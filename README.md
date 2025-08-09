@@ -28,5 +28,5 @@
 <h4>  2.7 - Método preventDefault()</h4>
 <h4>  2.8 - Operadores aritméticos e funções matemáticas</h4>
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
-<h4>  2.10- Exerxícios!</h4>
+<h4>  2.10- Exercícios!</h4>
 
