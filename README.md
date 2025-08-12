@@ -27,4 +27,8 @@
 <h4>  2.6 - Propriedades innerText, innerHTML e value</h4>
 <h4>  2.7 - Método preventDefault()</h4>
 <h4>  2.8 - Operadores aritméticos e funções matemáticas</h4>
+<h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
+<h4>  2.10- Exercícios!</h4>
+<h4>  2.11- Considerações!</h4>
+<h3>1 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
 
