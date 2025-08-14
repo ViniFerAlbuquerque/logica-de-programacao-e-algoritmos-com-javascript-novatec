@@ -30,5 +30,5 @@
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
 <h4>  2.10- Exercícios!</h4>
 <h4>  2.11- Considerações!</h4>
-<h3>1 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
+<h3>3 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
 
