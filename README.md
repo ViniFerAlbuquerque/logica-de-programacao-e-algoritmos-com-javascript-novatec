@@ -31,4 +31,5 @@
 <h4>  2.10- Exercícios!</h4>
 <h4>  2.11- Considerações!</h4>
 <h3>3 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
+<h4>  3.1 - Instalação do Node.js</h4>
 
