@@ -33,4 +33,5 @@
 <h3>3 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
 <h4>  3.1 - Instalação do Node.js</h4>
 <h4>  3.2 - Adição de pacote para entrada de dados!</h4>
+<h4>  3.3 - Exemplos de algoritmos com Node.js!</h4>
 
