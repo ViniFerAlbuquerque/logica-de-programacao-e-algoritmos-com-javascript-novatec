@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../cap01/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Lan House JS</title>
+</head>
+<body>
+    <main>
+        <h1>Lan House JS</h1>
+        <form>
+            <p>Valor por 15 min de Uso R$: 
+                <input type="number" id="inMin" placeholder="Insira o valor!" required>
+            </p>
+            <p>Tempo de Uso do Cliente:
+                <input type="number" id="inCliente" placeholder="Insira o tempo total!" required>
+            </p>
+            <p class="btn"><input class="bt" id="btnCalc" type="submit" value="Calcular o Valor a Pagar!"></p>
+        </form>
+    </main>
+
+    <section class="vlr">
+        <h4>Valor a ser cobrado do Cliente:</h4>
+        <h3 id="vlrCliente"></h3>
+    </section>
+
+    <script src="js/ex2_6.js"></script>
+</body>
+</html>
