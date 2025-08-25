@@ -38,4 +38,5 @@
 <h4>  3.5 - Considerações finais do capítulo!</h4>
 <h3>4 CAPÍTULO 4 ■ Condições!</h3>
 <h4>  4.1 - If... else...!</h4>
+<h4>  4.2 - Operadores relacionais!</h4>
 
