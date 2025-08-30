@@ -41,4 +41,5 @@
 <h4>  4.2 - Operadores relacionais!</h4>
 <h4>  4.3 - Operadores lógicos!</h4>
 <h4>  4.4 - Operador ternário!</h4>
+<h4>  4.5 - Switch... Case...</h4>
 
