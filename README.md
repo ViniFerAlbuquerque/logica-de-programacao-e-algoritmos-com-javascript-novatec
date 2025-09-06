@@ -36,4 +36,12 @@
 <h4>  3.3 - Criação e execução de programas com o Node.js!</h4>
 <h4>  3.4 - Exemplos de algoritmos com Node.js!</h4>
 <h4>  3.5 - Considerações finais do capítulo!</h4>
+<h3>4 CAPÍTULO 4 ■ Condições!</h3>
+<h4>  4.1 - If... else...!</h4>
+<h4>  4.2 - Operadores relacionais!</h4>
+<h4>  4.3 - Operadores lógicos!</h4>
+<h4>  4.4 - Operador ternário!</h4>
+<h4>  4.5 - Switch... Case...</h4>
+<h4>  4.6 - Exemplos com HTML e JavaScript!</h4>
+<h4>  4.7 - Exemplos com Node.js</h4>
 
