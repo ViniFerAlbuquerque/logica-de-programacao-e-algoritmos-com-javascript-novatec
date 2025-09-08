@@ -44,4 +44,5 @@
 <h4>  4.5 - Switch... Case...</h4>
 <h4>  4.6 - Exemplos com HTML e JavaScript!</h4>
 <h4>  4.7 - Exemplos com Node.js</h4>
+<h4>  4.8 - Exercícios de condições!</h4>
 
