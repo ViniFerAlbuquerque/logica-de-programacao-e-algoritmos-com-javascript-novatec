@@ -46,5 +46,6 @@
 <h4>  4.7 - Exemplos com Node.js</h4>
 <h4>  4.8 - Exercícios de condições!</h4>
 <h4>  4.9 - Considerações finais do capítulo!</h4>
-<h3>4 CAPÍTULO 5 ■ Repetições!</h3>
+<h3>5 CAPÍTULO 5 ■ Repetições!</h3>
+<h4>  5.1 - Repetição com variável de controle: laços for!</h4>
 
