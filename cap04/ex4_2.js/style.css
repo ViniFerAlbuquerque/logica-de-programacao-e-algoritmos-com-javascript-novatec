@@ -1,0 +1,101 @@
+
+body {
+    background-image: linear-gradient(to left, #524d4d, #413e3e);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+.design-section {
+    width: 60%;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    padding: 4px;
+    background: linear-gradient(to top, #73489c, #626294);
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+img {
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+
+h1 {
+    border-bottom-style: inset;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1::first-line {
+    color: #04534b;
+}
+
+input[type="number"] {
+    background: #d7e987;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 15px;
+    width: 50px;
+    cursor: grab;
+}
+
+input[type="text"] {
+    background: #d7e987;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 1 6px;
+    width: 500px;
+}
+
+input[type="radio"] {
+  accent-color: #d7e987;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+    background: #a3bd2f;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="reset"] {
+    background: #a3bd2f;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit:hover {
+    background-color: #281788;
+    /* Nova cor de fundo no hover */
+    color: #edf1f3;
+}
+
+.reset:hover {
+    background-color: #281788;
+    /* Nova cor de fundo no hover */
+    color: #edf1f3;
+}
+
+h3 {
+    padding: 20px;
+    font-size: 23px;
+   }
