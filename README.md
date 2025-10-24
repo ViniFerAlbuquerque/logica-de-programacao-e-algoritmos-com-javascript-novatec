@@ -54,4 +54,5 @@
 <h4>  5.5 - Contadores e acumuladores!</h4>
 <h4>  5.6 - Depurar programas (detectar erros)!</h4>
 <h4>  5.7 - Exemplos de algoritmos de repetição com Node.js</h4>
+<h4>  5.8 - Exercícios!</h4>
 
