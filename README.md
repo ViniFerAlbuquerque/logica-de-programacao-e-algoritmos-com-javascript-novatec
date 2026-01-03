@@ -58,4 +58,5 @@
 <h4>  5.9 - Considerações finais do capítulo!</h4>
 <h3>6 CAPÍTULO 6 ■ Vetores!</h3>
 <h4>  6.1 - Inclusão e exclusão de itens!</h4>
+<h4>  6.2 - Tamanho do vetor e exibição dos itens!</h4>
 
