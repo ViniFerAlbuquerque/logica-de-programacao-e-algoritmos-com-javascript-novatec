@@ -60,4 +60,5 @@
 <h4>  6.1 - Inclusão e exclusão de itens!</h4>
 <h4>  6.2 - Tamanho do vetor e exibição dos itens!</h4>
 <h4>  6.3 - For...of e forEach()</h4>
+<h4>  6.4 - Localizar conteúdo</h4>
 
