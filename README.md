@@ -63,4 +63,5 @@
 <h4>  6.4 - Localizar conteúdo</h4>
 <h4>  6.5 - Vetores de objejos!</h4>
 <h4>  6.6 - Desestruturação e operador Rest/Spread!</h4>
+<h4>  6.7 - Pesquisar e filtrar dados!</h4>
 
