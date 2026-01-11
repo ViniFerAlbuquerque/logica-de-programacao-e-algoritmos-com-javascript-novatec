@@ -65,4 +65,5 @@
 <h4>  6.6 - Desestruturação e operador Rest/Spread!</h4>
 <h4>  6.7 - Pesquisar e filtrar dados!</h4>
 <h4>  6.8 - Map, Filter e Reduce!</h4>
+<h4>  6.9 - Classificar os itens do vetor!</h4>
 
