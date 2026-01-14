@@ -68,4 +68,5 @@
 <h4>  6.9 - Classificar os itens do vetor!</h4>
 <h4> 6.10 - Manipulação de vetores com Node.js</h4>
 <h4> 6.11 - Exercícios Vetores!</h4>
+<h4> 6.12 - Considerações finais do capítulo!</h4>
 
