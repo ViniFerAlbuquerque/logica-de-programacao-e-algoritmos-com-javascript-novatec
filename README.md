@@ -71,4 +71,5 @@
 <h4> 6.12 - Considerações finais do capítulo!</h4>
 <h3>7 CAPÍTULO 7 ■ Strings e datas!</h3>
 <h4>  7.1 - Percorrer os caracteres de uma string!</h4>
+<h4>  7.2 - Converter para letras maiúsculas ou minúsculas!</h4>
 
