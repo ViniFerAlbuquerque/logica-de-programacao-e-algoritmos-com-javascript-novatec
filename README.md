@@ -75,4 +75,5 @@
 <h4>  7.3 - Cópia de caracteres e remoção de espaços da string!</h4>
 <h4>  7.4 - Localizar um ou mais caracteres de uma string!</h4>
 <h4>  7.5 - Dividir a string em elementos de vetor!</h4>
+<h4>  7.6 - Validar senhas com o método match()</h4>
 
