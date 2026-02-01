@@ -79,4 +79,5 @@
 <h4>  7.7 - Substituição de caracteres!</h4>
 <h4>  7.8 - Manipulação de datas!</h4>
 <h4>  7.9 - Strings e datas com Node.js</h4>
+<h4>  7.10- Exercícios Strings e datas!</h4>
 
