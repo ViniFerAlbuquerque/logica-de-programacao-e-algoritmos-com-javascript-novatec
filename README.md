@@ -81,4 +81,6 @@
 <h4>  7.9 - Strings e datas com Node.js</h4>
 <h4>  7.10- Exercícios Strings e datas!</h4>
 <h4>  7.11- Considerações finais de Strings e datas</h4>
-<h4>7 CAPÍTULO 8 ■ Funções e eventos!</h3>
+<h3>8 CAPÍTULO 8 ■ Funções e eventos!</h3>
+<h4>  8.1 - Functions e Arrow Functions!</h4>
+
