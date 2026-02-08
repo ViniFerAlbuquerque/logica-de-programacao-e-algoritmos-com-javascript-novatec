@@ -84,4 +84,5 @@
 <h3>8 CAPÍTULO 8 ■ Funções e eventos!</h3>
 <h4>  8.1 - Functions e Arrow Functions!</h4>
 <h4>  8.2 - Funções com passagem de parâmetros!</h4>
+<h4>  8.3 - Funções com retorno de valor!</h4>
 
