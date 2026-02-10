@@ -86,4 +86,5 @@
 <h4>  8.2 - Funções com passagem de parâmetros!</h4>
 <h4>  8.3 - Funções com retorno de valor!</h4>
 <h4>  8.4 - Funções com parâmetros Rest!</h4>
+<h4>  8.5 - Funções anônimas!</h4>
 
