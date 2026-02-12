@@ -87,5 +87,6 @@
 <h4>  8.3 - Funções com retorno de valor!</h4>
 <h4>  8.4 - Funções com parâmetros Rest!</h4>
 <h4>  8.5 - Funções anônimas!</h4>
-<h44> 8.6 - Eventos JavaScript!</h44>
+<h4>  8.6 - Eventos JavaScript!</h4>
+<h4>  8.7 - Funções com Node.js</h4>
 
