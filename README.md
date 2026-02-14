@@ -90,4 +90,5 @@
 <h4>  8.6 - Eventos JavaScript!</h4>
 <h4>  8.7 - Funções com Node.js</h4>
 <h4>  8.8 - Exercícios Funções e eventos!</h4>
+<h4>  8.9 - Considerações finais de Funções e eventos</h4>
 
