@@ -92,4 +92,5 @@
 <h4>  8.8 - Exercícios Funções e eventos!</h4>
 <h4>  8.9 - Considerações finais de Funções e eventos</h4>
 <h3>9 CAPÍTULO 9 ■ Persistência de dados com localStorage!</h3>
+<h4>  9.1 - Salvar e recuperar dados!</h4>
 
