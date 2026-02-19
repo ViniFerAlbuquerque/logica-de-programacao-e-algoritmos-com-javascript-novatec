@@ -94,4 +94,5 @@
 <h3>9 CAPÍTULO 9 ■ Persistência de dados com localStorage!</h3>
 <h4>  9.1 - Salvar e recuperar dados!</h4>
 <h4>  9.2 - Uma "pitada" de Bootstrap!</h4>
+<h4>  9.3 - Remover dados do localStorage!</h4>
 
