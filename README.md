@@ -95,4 +95,5 @@
 <h4>  9.1 - Salvar e recuperar dados!</h4>
 <h4>  9.2 - Uma "pitada" de Bootstrap!</h4>
 <h4>  9.3 - Remover dados do localStorage!</h4>
+<h4>  9.4 - Uso do querySelectorAll()</h4>
 
