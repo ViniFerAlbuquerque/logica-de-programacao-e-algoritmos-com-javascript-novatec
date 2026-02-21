@@ -96,4 +96,5 @@
 <h4>  9.2 - Uma "pitada" de Bootstrap!</h4>
 <h4>  9.3 - Remover dados do localStorage!</h4>
 <h4>  9.4 - Uso do querySelectorAll()</h4>
+<h4>  9.5 - Manipular listas no localStorage!</h4>
 
