@@ -99,3 +99,4 @@
 <h4>  9.5 - Manipular listas no localStorage!</h4>
 <h4>  9.6 - Exercícios Persistência de dados com localStorage!</h4>
 <h4>  9.7 - Considerações finais de Persistência de dados com localStorage!</h4>
+<h3>10 CAPÍTULO 10 ■ Inserir elementos HTML via JavaScript!</h3>
