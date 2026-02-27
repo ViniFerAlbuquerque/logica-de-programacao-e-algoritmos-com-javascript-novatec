@@ -21,7 +21,7 @@
 [VisualStudioCode](https://code.visualstudio.com/)
 <h4>  1.5 - Saída de dados com alert() e console.log()</h4>
 
-[Hello](ex0_1.html)  <br>
+[Hello](‎cap01/ex0_1.html/index.html)  <br>
 [saida-de-dados-com-alert](ex1_1.html)
 <h4>  1.6 - Variáveis e constantes</h4>
 <h4>  1.7 - Entrada de dados com prompt()</h4>
