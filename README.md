@@ -105,3 +105,4 @@
 <h4>  9.7 - Considerações finais de Persistência de dados com localStorage!</h4>
 <h3>10 CAPÍTULO 10 ■ Inserir elementos HTML via JavaScript!</h3>
 <h4> 10.1 - Inserir e manipular elementos de texto!</h4>
+<h4> 10.2 - Inserir imagens!</h4>
