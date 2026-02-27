@@ -1,9 +1,10 @@
 <h1>Lógica de Programação e Algoritmos com JavaScript - 2ª Edição da Novatec, do autor Edécio Fernando Iepsen.</h1>
 
 [Livro](https://www.novatec.com.br/livros/logica-programacao-algoritmos-com-javascript-2ed/)
-<hr>
+
 
 <h3>1 CAPÍTULO 1 ■ Introdução</h3>
+<hr>
 <h4>  1.1 - Lógica de programação</h4>
 <p>1.1.1 Compreender o que foi pedido!</p>
 <p>1.1.2 Realizar deduções na construção do programa</p>
@@ -13,6 +14,8 @@
 <p>1.1.6 Pensar em todos os detalhes</p>
 <h4>  1.2 - Entrada, procesamento e saída</h4>
 <h4>  1.3 - JavaScript</h4>
+
+[ecma](https://ecma-international.org/)
 <h4>  1.4 - Editores de código JavaScript</h4>
 <h4>  1.5 - Saída de dados com alert() e console.log()</h4>
 <h4>  1.6 - Variáveis e constantes</h4>
@@ -23,6 +26,7 @@
 <h4>  1.11- Exercícios</h4>
 <h4>  1.12- Considerações finais do capítulo</h4>
 <h3>2 CAPÍTULO 2 ■ Integração com HTML</h3>
+<hr>
 <h4>  2.1 - Estrutura básica de um documento HTML</h4>
 <h4>  2.2 - Cabeçalhos, parágrafos e campos de formulário</h4>
 <h4>  2.3 - Criação do programa JavaScript</h4>
@@ -60,6 +64,7 @@
 <h4>  5.7 - Exemplos de algoritmos de repetição com Node.js</h4>
 <h4>  5.8 - Exercícios!</h4>
 <h4>  5.9 - Considerações finais do capítulo!</h4>
+<br><hr>
 <h3>6 CAPÍTULO 6 ■ Vetores!</h3>
 <h4>  6.1 - Inclusão e exclusão de itens!</h4>
 <h4>  6.2 - Tamanho do vetor e exibição dos itens!</h4>
