@@ -17,6 +17,8 @@
 
 [ecma](https://ecma-international.org/)
 <h4>  1.4 - Editores de código JavaScript</h4>
+
+[VisualStudioCode](https://code.visualstudio.com/)
 <h4>  1.5 - Saída de dados com alert() e console.log()</h4>
 <h4>  1.6 - Variáveis e constantes</h4>
 <h4>  1.7 - Entrada de dados com prompt()</h4>
