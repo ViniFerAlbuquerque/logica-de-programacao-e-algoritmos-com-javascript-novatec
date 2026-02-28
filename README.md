@@ -44,12 +44,14 @@
 <h4>  2.10- Exercícios!</h4>
 <h4>  2.11- Considerações!</h4>
 <h3>3 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
+<hr>
 <h4>  3.1 - Instalação do Node.js</h4>
 <h4>  3.2 - Adição de pacote para entrada de dados!</h4>
 <h4>  3.3 - Criação e execução de programas com o Node.js!</h4>
 <h4>  3.4 - Exemplos de algoritmos com Node.js!</h4>
 <h4>  3.5 - Considerações finais do capítulo!</h4>
 <h3>4 CAPÍTULO 4 ■ Condições!</h3>
+<hr>
 <h4>  4.1 - If... else...!</h4>
 <h4>  4.2 - Operadores relacionais!</h4>
 <h4>  4.3 - Operadores lógicos!</h4>
@@ -60,6 +62,7 @@
 <h4>  4.8 - Exercícios de condições!</h4>
 <h4>  4.9 - Considerações finais do capítulo!</h4>
 <h3>5 CAPÍTULO 5 ■ Repetições!</h3>
+<hr>
 <h4>  5.1 - Repetição com variável de controle: laços for!</h4>
 <h4>  5.2 - Repetição com teste no início laços while!</h4>
 <h4>  5.3 - Repetição com teste no final: laços do... while!</h4>
@@ -69,8 +72,8 @@
 <h4>  5.7 - Exemplos de algoritmos de repetição com Node.js</h4>
 <h4>  5.8 - Exercícios!</h4>
 <h4>  5.9 - Considerações finais do capítulo!</h4>
-<br><hr>
 <h3>6 CAPÍTULO 6 ■ Vetores!</h3>
+<hr>
 <h4>  6.1 - Inclusão e exclusão de itens!</h4>
 <h4>  6.2 - Tamanho do vetor e exibição dos itens!</h4>
 <h4>  6.3 - For...of e forEach()</h4>
@@ -84,6 +87,7 @@
 <h4> 6.11 - Exercícios Vetores!</h4>
 <h4> 6.12 - Considerações finais do capítulo!</h4>
 <h3>7 CAPÍTULO 7 ■ Strings e datas!</h3>
+<hr>
 <h4>  7.1 - Percorrer os caracteres de uma string!</h4>
 <h4>  7.2 - Converter para letras maiúsculas ou minúsculas!</h4>
 <h4>  7.3 - Cópia de caracteres e remoção de espaços da string!</h4>
@@ -96,6 +100,7 @@
 <h4>  7.10- Exercícios Strings e datas!</h4>
 <h4>  7.11- Considerações finais de Strings e datas</h4>
 <h3>8 CAPÍTULO 8 ■ Funções e eventos!</h3>
+<hr>
 <h4>  8.1 - Functions e Arrow Functions!</h4>
 <h4>  8.2 - Funções com passagem de parâmetros!</h4>
 <h4>  8.3 - Funções com retorno de valor!</h4>
@@ -106,6 +111,7 @@
 <h4>  8.8 - Exercícios Funções e eventos!</h4>
 <h4>  8.9 - Considerações finais de Funções e eventos</h4>
 <h3>9 CAPÍTULO 9 ■ Persistência de dados com localStorage!</h3>
+<hr>
 <h4>  9.1 - Salvar e recuperar dados!</h4>
 <h4>  9.2 - Uma "pitada" de Bootstrap!</h4>
 <h4>  9.3 - Remover dados do localStorage!</h4>
@@ -114,5 +120,6 @@
 <h4>  9.6 - Exercícios Persistência de dados com localStorage!</h4>
 <h4>  9.7 - Considerações finais de Persistência de dados com localStorage!</h4>
 <h3>10 CAPÍTULO 10 ■ Inserir elementos HTML via JavaScript!</h3>
+<hr>
 <h4> 10.1 - Inserir e manipular elementos de texto!</h4>
 <h4> 10.2 - Inserir imagens!</h4>
