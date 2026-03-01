@@ -25,6 +25,8 @@
 [saida-de-dados-com-alert](cap01/ex1_1.html)
 <h4>  1.6 - Variáveis e constantes</h4>
 <h4>  1.7 - Entrada de dados com prompt()</h4>
+
+[entrada-de-dados-e-uso-de-variáveis](ex1_2.html)
 <h4>  1.8 - Comentários</h4>
 <h4>  1.9 - Tipos de dados e conversões de tipos</h4>
 <h4>  1.10- Exemplos de entrada, processamento e saída</h4>
