@@ -29,6 +29,8 @@
 [entrada-de-dados-e-uso-de-variáveis](cap01/ex1_2.html/)
 <h4>  1.8 - Comentários</h4>
 <h4>  1.9 - Tipos de dados e conversões de tipos</h4>
+
+[tipos-de-dados-e-conversões-de-tipos](cap01/ex1_3.html/)
 <h4>  1.10- Exemplos de entrada, processamento e saída</h4>
 <h4>  1.11- Exercícios</h4>
 <h4>  1.12- Considerações finais do capítulo</h4>
