@@ -31,6 +31,7 @@
 <h4>  1.9 - Tipos de dados e conversões de tipos</h4>
 
 [tipos-de-dados-e-conversões-de-tipos](cap01/ex1_3.html/)
+<br>
 [tipos-de-variaveis](cap01/ex1_4.html/)
 <h4>  1.10- Exemplos de entrada, processamento e saída</h4>
 <h4>  1.11- Exercícios</h4>
