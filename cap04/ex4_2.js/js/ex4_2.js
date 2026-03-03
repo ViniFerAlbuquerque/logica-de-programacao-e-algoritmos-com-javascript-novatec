@@ -15,6 +15,9 @@ frm.addEventListener("submit", (e) => {
         peso = 22 * Math.pow(altura, 2)
     }
 
+     // operador ternário define a condição
+  //const peso = masculino ? 22 * Math.pow(altura, 2) : 21 * Math.pow(altura, 2)
+
     resp.innerText = `${nome}: Seu peso ideal é ${peso.toFixed(3)} kg`
 })
 frm.addEventListener("reset", () => {

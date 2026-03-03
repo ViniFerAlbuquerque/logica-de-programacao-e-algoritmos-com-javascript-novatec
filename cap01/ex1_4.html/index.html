@@ -18,7 +18,7 @@
         const fruta = "Banana"
         const preco = 3.50
         const levar = true
-        let novoValor = 500.5
+        let novoValor
 
         console.log(typeof fruta) //string
         console.log(typeof preco) //number
@@ -28,8 +28,12 @@
         console.log(Number.isInteger(12)) //true
         console.log(Number.isInteger(3.50)) //false
 
-
-        alert(`${fruta} + ${preco} + ${levar} ${novoValor}`);
+             alert(`Fruta: ${fruta} 
+             - Qual o preço: R$${preco} 
+             - Comprar: ${levar} 
+             - Vai ser modificado o valor: R$${novoValor} 
+             - O n° 12 é inteiro? ${Number.isInteger(12)} 
+             - O n° 3.50 é inteiro? ${Number.isInteger(3.50)}`);
 
     </Script>
 </body>
