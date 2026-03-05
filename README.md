@@ -35,7 +35,9 @@
 [tipos-de-variaveis](cap01/ex1_4.html/)
 <h4>  1.10- Exemplos de entrada, processamento e saída</h4>
 
-[calculo-do-dobro-de-um-numero](cap01/ex1_5.html/)
+[calculo-do-dobro-de-um-numero](cap01/ex1_5.html/) 
+<br>
+[soma-de-dois-numeros](cap01/ex1_6.html/)
 <h4>  1.11- Exercícios</h4>
 <h4>  1.12- Considerações finais do capítulo</h4>
 <h3>2 CAPÍTULO 2 ■ Integração com HTML</h3>
