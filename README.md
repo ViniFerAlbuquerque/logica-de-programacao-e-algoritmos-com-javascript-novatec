@@ -38,6 +38,8 @@
 [calculo-do-dobro-de-um-numero](cap01/ex1_5.html/) 
 <br>
 [soma-de-dois-numeros](cap01/ex1_6.html/)
+<br>
+[calculo-do-valor-do-jantar](cap01/ex1_7.html/)
 <h4>  1.11- Exercícios</h4>
 <h4>  1.12- Considerações finais do capítulo</h4>
 <h3>2 CAPÍTULO 2 ■ Integração com HTML</h3>
