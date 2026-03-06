@@ -43,6 +43,8 @@
 <br>
 [calculo-da-duracao-de-horas-de-uma-viagem](cap01/ex1_8.html/)
 <h4>  1.11- Exercícios</h4>
+
+[informe-os-seus-vizinhos](cap01/resp1_a.html/)
 <h4>  1.12- Considerações finais do capítulo</h4>
 <h3>2 CAPÍTULO 2 ■ Integração com HTML</h3>
 <hr>
