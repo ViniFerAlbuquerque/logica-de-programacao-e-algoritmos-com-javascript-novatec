@@ -142,3 +142,4 @@
 <h4> 10.1 - Inserir e manipular elementos de texto!</h4>
 <h4> 10.2 - Inserir imagens!</h4>
 <h4> 10.3 - Manipular tabelas HTML</h4>
+<h4> 10.4 - Exercícios Inserindo elementos HTML via JS</h4>
