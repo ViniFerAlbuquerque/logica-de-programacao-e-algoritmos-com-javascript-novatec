@@ -50,7 +50,7 @@
 <br>
 [programa-para-uma-loja](cap01/resp1_c.html/)
 <br>
-[calcule-e-informe-a-media-de-duas-notas](cap01/respp1_d.html/)
+[calcule-e-informe-a-media-de-duas-notas](cap01/resp1_d.html/)
 <h4>  1.12- Considerações finais do capítulo</h4>
 <h3>2 CAPÍTULO 2 ■ Integração com HTML</h3>
 <hr>
