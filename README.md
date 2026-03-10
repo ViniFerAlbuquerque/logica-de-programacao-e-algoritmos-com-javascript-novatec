@@ -52,6 +52,7 @@
 <br>
 [calcule-e-informe-a-media-de-duas-notas](cap01/resp1_d.html/)
 <h4>  1.12- Considerações finais do capítulo</h4>
+<p>Para nos tornarmos desenvolvedores de sistemas, é preciso construir um conhecimento sólido sobre a base, assim como na construção de um grande edifício, em que o alicerce é fundamental para as demais estruturas. Construir e entender os exemplos e exercícios deste capítulo são igualmente fundamentais para que você avance nos estudos sobre lógica de programação!</p>
 <h3>2 CAPÍTULO 2 ■ Integração com HTML</h3>
 <hr>
 <h4>  2.1 - Estrutura básica de um documento HTML</h4>
