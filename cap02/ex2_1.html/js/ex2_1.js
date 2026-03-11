@@ -5,5 +5,4 @@ frm.addEventListener("submit", (e) => {
 const nome = frm.inNome.value
 resp.innerText = `Olá ${nome}`
 
-e.preventDefault()
-})
+e.preventDefault() })
