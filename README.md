@@ -60,6 +60,8 @@
 
 [programa-ola-voce](cap02/ex2_1.html/)
 <h4>  2.3 - Criação do programa JavaScript</h4>
+
+[programa-ola-voce-javascript](cap02/ex2_1.html/js/ex2_1.js)
 <h4>  2.4 - Métodos querySelector() e getElementById()</h4>
 <h4>  2.5 - Introdução a eventos e funções</h4>
 <h4>  2.6 - Propriedades innerText, innerHTML e value</h4>
