@@ -34,8 +34,25 @@
 <br>
 [tipos-de-variaveis](cap01/ex1_4.html/)
 <h4>  1.10- Exemplos de entrada, processamento e saída</h4>
+
+[calculo-do-dobro-de-um-numero](cap01/ex1_5.html/) 
+<br>
+[soma-de-dois-numeros](cap01/ex1_6.html/)
+<br>
+[calculo-do-valor-do-jantar](cap01/ex1_7.html/)
+<br>
+[calculo-da-duracao-de-horas-de-uma-viagem](cap01/ex1_8.html/)
 <h4>  1.11- Exercícios</h4>
+
+[informe-os-seus-vizinhos](cap01/resp1_a.html/)
+<br>
+[valor-total-de-uma-conta-e-quantos-clientes-pagarao](cap01/resp1_b.html/)
+<br>
+[programa-para-uma-loja](cap01/resp1_c.html/)
+<br>
+[calcule-e-informe-a-media-de-duas-notas](cap01/resp1_d.html/)
 <h4>  1.12- Considerações finais do capítulo</h4>
+<p>Para nos tornarmos desenvolvedores de sistemas, é preciso construir um conhecimento sólido sobre a base, assim como na construção de um grande edifício, em que o alicerce é fundamental para as demais estruturas. Construir e entender os exemplos e exercícios deste capítulo são igualmente fundamentais para que você avance nos estudos sobre lógica de programação!</p>
 <h3>2 CAPÍTULO 2 ■ Integração com HTML</h3>
 <hr>
 <h4>  2.1 - Estrutura básica de um documento HTML</h4>
@@ -129,3 +146,6 @@
 <hr>
 <h4> 10.1 - Inserir e manipular elementos de texto!</h4>
 <h4> 10.2 - Inserir imagens!</h4>
+<h4> 10.3 - Manipular tabelas HTML</h4>
+<h4> 10.4 - Exercícios Inserindo elementos HTML via JS</h4>
+<h4> 10.5 - Considerações finais da inserção e manipulação de  elementos de texto!</h4>
