@@ -6,17 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../cap01/favicon.ico" type="image/x-icon">
     <title>Exemplo 2.1 Documento HTML com campos de formulário (ex2_1.html)</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: linear-gradient(to left, hsl(185, 43%, 90%), #000000);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            min-height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            color: #f0f0f0;
+        }
+
+        section {
+            width: 50%;
+            border: 1px solid #d2d2d2;
+            border-radius: 10px;
+            padding: 4px;
+            background: linear-gradient(to top, #434144, #020220);
+            box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 17px;
+        }
+
+        input[type="text"] {
+            background: #d6e67c;
+            border-radius: 10px;
+            border: 1px solid;
+            padding: 5px;
+            font-size: 15px;
+            width: 400px;
+        }
+
+        input[type="submit"]{
+            background: #d0ff00;
+            border-radius: 39px;
+            border: 1px solid;
+            padding: 3pxpx;
+            margin: 15px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 159px;
+        }
+    </style>
+
 </head>
 
 <body>
-    <h1>Programa Olá Você!</h1>
-    <form action="">
-        <p>Nome:
-            <input type="text" id="inNome">
-            <input type="submit" value="Mostrar">
-        </p>
-    </form>
-    <h3></h3>
+    <section>
+        <h1>Programa Olá Você!</h1>
+        <form action="">
+            <p>Nome:
+                <input type="text" id="inNome">
+                <input type="submit" value="Mostrar">
+            </p>
+        </form>
+        <h3></h3>
+    </section>
 
     <script src="js/ex2_1.js"></script>
 </body>
