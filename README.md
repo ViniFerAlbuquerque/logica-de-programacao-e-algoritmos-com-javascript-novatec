@@ -57,6 +57,8 @@
 <hr>
 <h4>  2.1 - Estrutura básica de um documento HTML</h4>
 <h4>  2.2 - Cabeçalhos, parágrafos e campos de formulário</h4>
+
+[programa-ola-voce](cap02/ex2_1.html/)
 <h4>  2.3 - Criação do programa JavaScript</h4>
 <h4>  2.4 - Métodos querySelector() e getElementById()</h4>
 <h4>  2.5 - Introdução a eventos e funções</h4>
