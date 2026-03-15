@@ -71,6 +71,7 @@
 <p>- innerHTML -> Consulta ou altera o conteúdo de elementos HTML como parágrafos (p), cabeçalhos (h1, h2,...) ou containers (span, div). Códigos HTML presentes no conteúdo são renderizados pelo navegador.(p) </p>
 <p>- value -> Consulta ou altera o conteúdo de campos de formulário.</p>
 <h4>  2.7 - Método preventDefault()</h4>
+<p>- Previne o comportamento de default do botão submit.</p>
 <h4>  2.8 - Operadores aritméticos e funções matemáticas</h4>
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
 <h4>  2.10- Exercícios!</h4>
