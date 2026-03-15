@@ -65,6 +65,7 @@
 <h4>  2.4 - Métodos querySelector() e getElementById()</h4>
 <p>Para referenciar um elemento HTML identificado no documento, podemos utilizar os métodos querySelector() ou getElementById().</p>
 <h4>  2.5 - Introdução a eventos e funções</h4>
+- Quando o usuário executa uma ação, o programa responde ao evento do usuário com uma ou mais ações. O evento mais comum de ser programado para um formulário é o clique no botão submit. Mas há diversos outros, como modificar o conteúdo de um campo, clicar sobre um elemento da página, sair de um campo, carregar a página, entre outros. Mais detalhes sobre os eventos serão apresentados no Capítulo 8.
 <h4>  2.6 - Propriedades innerText, innerHTML e value</h4>
 <h4>  2.7 - Método preventDefault()</h4>
 <h4>  2.8 - Operadores aritméticos e funções matemáticas</h4>
