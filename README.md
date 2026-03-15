@@ -67,6 +67,9 @@
 <h4>  2.5 - Introdução a eventos e funções</h4>
 <p>- Quando o usuário executa uma ação, o programa responde ao evento do usuário com uma ou mais ações. O evento mais comum de ser programado para um formulário é o clique no botão submit. Mas há diversos outros, como modificar o conteúdo de um campo, clicar sobre um elemento da página, sair de um campo, carregar a página, entre outros. Mais detalhes sobre os eventos serão apresentados no Capítulo 8.</p>
 <h4>  2.6 - Propriedades innerText, innerHTML e value</h4>
+<p>- innerText -> Consulta ou altera o texto exibido por elementos HTML como parágrafos (p), cabeçalhos (h1, h2,...) ou containers (span, div).</p>
+<p>- innerHTML -> Consulta ou altera o conteúdo de elementos HTML como parágrafos (p), cabeçalhos (h1, h2,...) ou containers (span, div). Códigos HTML presentes no conteúdo são renderizados pelo navegador.(p) </p>
+<p>- value -> Consulta ou altera o conteúdo de campos de formulário.</p>
 <h4>  2.7 - Método preventDefault()</h4>
 <h4>  2.8 - Operadores aritméticos e funções matemáticas</h4>
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
