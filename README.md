@@ -75,7 +75,7 @@
 <h4>  2.8 - Operadores aritméticos e funções matemáticas</h4>
 <p>→ Tabela 2.2 - Principais funções matemáticas da classe Math:</p>
 <p>- Math.abs(num) → Retorna o valor absoluto de um número!</p>
-<p>- Math.cell(num) → Arredonda o valor para cima!</p>
+<p>- Math.ceil(num) → Arredonda o valor para cima!</p>
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
 <h4>  2.10- Exercícios!</h4>
 <h4>  2.11- Considerações!</h4>
