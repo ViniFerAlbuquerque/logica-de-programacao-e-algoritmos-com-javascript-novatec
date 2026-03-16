@@ -79,7 +79,7 @@
 <p>- Math.floor(num) → Arredonda o valor para baixo!</p>
 <p>- Math.pow(base, exp) → Retorna a base elevada ao expoente!</p>
 <p>- Math.random() → Retorna um número aleatório entre 0 e 1!</p>
-<p></p>
+<p>- Math.round(num) → Arredonda o valor para o inteiro mais próximo!</p>
 <p></p>
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
 <h4>  2.10- Exercícios!</h4>
