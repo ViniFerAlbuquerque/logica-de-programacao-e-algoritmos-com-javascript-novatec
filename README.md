@@ -73,6 +73,7 @@
 <h4>  2.7 - Método preventDefault()</h4>
 <p>- Previne o comportamento de default do botão submit.</p>
 <h4>  2.8 - Operadores aritméticos e funções matemáticas</h4>
+<p>→ Tabela 2.2 - Principais funções matemáticas da classe Math:</p>
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
 <h4>  2.10- Exercícios!</h4>
 <h4>  2.11- Considerações!</h4>
