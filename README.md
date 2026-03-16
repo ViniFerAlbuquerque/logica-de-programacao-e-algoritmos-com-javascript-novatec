@@ -80,7 +80,7 @@
 <p>- Math.pow(base, exp) → Retorna a base elevada ao expoente!</p>
 <p>- Math.random() → Retorna um número aleatório entre 0 e 1!</p>
 <p>- Math.round(num) → Arredonda o valor para o inteiro mais próximo!</p>
-<p></p>
+<p>- Math.sqrt(num) → Retorna a raiz quadrada do número!</p>
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
 <h4>  2.10- Exercícios!</h4>
 <h4>  2.11- Considerações!</h4>
