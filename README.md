@@ -78,7 +78,7 @@
 <p>- Math.ceil(num) → Arredonda o valor para cima!</p>
 <p>- Math.floor(num) → Arredonda o valor para baixo!</p>
 <p>- Math.pow(base, exp) → Retorna a base elevada ao expoente!</p>
-<p></p>
+<p>- Math.random() → Retorna um número aleatório entre 0 e 1!</p>
 <p></p>
 <p></p>
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
