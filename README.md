@@ -77,6 +77,10 @@
 <p>- Math.abs(num) → Retorna o valor absoluto de um número!</p>
 <p>- Math.ceil(num) → Arredonda o valor para cima!</p>
 <p>- Math.floor(num) → Arredonda o valor para baixo!</p>
+<p>Math.pow(base, exp) → Retorna a base elevada ao expoente!</p>
+<p></p>
+<p></p>
+<p></p>
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
 <h4>  2.10- Exercícios!</h4>
 <h4>  2.11- Considerações!</h4>
