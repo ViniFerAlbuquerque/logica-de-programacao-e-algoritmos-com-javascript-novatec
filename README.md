@@ -77,7 +77,7 @@
 <p>- Math.abs(num) → Retorna o valor absoluto de um número!</p>
 <p>- Math.ceil(num) → Arredonda o valor para cima!</p>
 <p>- Math.floor(num) → Arredonda o valor para baixo!</p>
-<p>Math.pow(base, exp) → Retorna a base elevada ao expoente!</p>
+<p>- Math.pow(base, exp) → Retorna a base elevada ao expoente!</p>
 <p></p>
 <p></p>
 <p></p>
