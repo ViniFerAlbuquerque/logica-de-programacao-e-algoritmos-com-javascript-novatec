@@ -60,11 +60,27 @@
 
 [programa-ola-voce](cap02/ex2_1.html/)
 <h4>  2.3 - Criação do programa JavaScript</h4>
+
+[programa-ola-voce-javascript](cap02/ex2_1.html/js/ex2_1.js)
 <h4>  2.4 - Métodos querySelector() e getElementById()</h4>
+<p>- Para referenciar um elemento HTML identificado no documento, podemos utilizar os métodos querySelector() ou getElementById().</p>
 <h4>  2.5 - Introdução a eventos e funções</h4>
+<p>- Quando o usuário executa uma ação, o programa responde ao evento do usuário com uma ou mais ações. O evento mais comum de ser programado para um formulário é o clique no botão submit. Mas há diversos outros, como modificar o conteúdo de um campo, clicar sobre um elemento da página, sair de um campo, carregar a página, entre outros. Mais detalhes sobre os eventos serão apresentados no Capítulo 8.</p>
 <h4>  2.6 - Propriedades innerText, innerHTML e value</h4>
+<p>- innerText -> Consulta ou altera o texto exibido por elementos HTML como parágrafos (p), cabeçalhos (h1, h2,...) ou containers (span, div).</p>
+<p>- innerHTML -> Consulta ou altera o conteúdo de elementos HTML como parágrafos (p), cabeçalhos (h1, h2,...) ou containers (span, div). Códigos HTML presentes no conteúdo são renderizados pelo navegador.(p) </p>
+<p>- value -> Consulta ou altera o conteúdo de campos de formulário.</p>
 <h4>  2.7 - Método preventDefault()</h4>
+<p>- Previne o comportamento de default do botão submit.</p>
 <h4>  2.8 - Operadores aritméticos e funções matemáticas</h4>
+<p>→ Tabela 2.2 - Principais funções matemáticas da classe Math:</p>
+<p>- Math.abs(num) → Retorna o valor absoluto de um número!</p>
+<p>- Math.ceil(num) → Arredonda o valor para cima!</p>
+<p>- Math.floor(num) → Arredonda o valor para baixo!</p>
+<p>- Math.pow(base, exp) → Retorna a base elevada ao expoente!</p>
+<p>- Math.random() → Retorna um número aleatório entre 0 e 1!</p>
+<p>- Math.round(num) → Arredonda o valor para o inteiro mais próximo!</p>
+<p>- Math.sqrt(num) → Retorna a raiz quadrada do número!</p>
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
 <h4>  2.10- Exercícios!</h4>
 <h4>  2.11- Considerações!</h4>
@@ -151,3 +167,5 @@
 <h4> 10.3 - Manipular tabelas HTML</h4>
 <h4> 10.4 - Exercícios Inserindo elementos HTML via JS</h4>
 <h4> 10.5 - Considerações finais da inserção e manipulação de  elementos de texto!</h4>
+<h3>11 CAPÍTULO 11 ■ É muito bom programar... Programe!</h3>
+<hr>
