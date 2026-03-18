@@ -82,6 +82,8 @@
 <p>- Math.round(num) → Arredonda o valor para o inteiro mais próximo!</p>
 <p>- Math.sqrt(num) → Retorna a raiz quadrada do número!</p>
 <h4>  2.9 - Exemplos de programas JS integrados com HTML!</h4>
+
+[video-locadora](cap02/ex2_2.html/)
 <h4>  2.10- Exercícios!</h4>
 <h4>  2.11- Considerações!</h4>
 <h3>3 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
