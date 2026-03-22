@@ -86,6 +86,8 @@
 [video-locadora](cap02/ex2_2.html/)
 <br>
 [revenda-de-veiculos](cap02/ex2_3.html/js/)
+<br>
+[restaurante-js](cap02/_4.html/js/)
 <h4>  2.10- Exercícios!</h4>
 <h4>  2.11- Considerações!</h4>
 <h3>3 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
