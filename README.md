@@ -94,6 +94,7 @@
 <br>
 [lan-house-js](cap02/ex2_6.html/js/)
 <br>
+[supermercado-js](ca02/ex2_7.html/js/)
 <h4>  2.11- Considerações!</h4>
 <h3>3 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
 <hr>
