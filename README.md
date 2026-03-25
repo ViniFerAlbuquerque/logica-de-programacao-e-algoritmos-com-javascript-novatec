@@ -89,6 +89,9 @@
 <br>
 [restaurante-js](cap02/ex2_4.html/js/)
 <h4>  2.10- Exercícios!</h4>
+
+[farmacia-js](cap02/ex2_5.html/js/)
+<br>
 <h4>  2.11- Considerações!</h4>
 <h3>3 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
 <hr>
