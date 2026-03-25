@@ -92,6 +92,8 @@
 
 [farmacia-js](cap02/ex2_5.html/js/)
 <br>
+[lan-house-js](cap02/ex2_6.html/js/)
+<br>
 <h4>  2.11- Considerações!</h4>
 <h3>3 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
 <hr>
