@@ -96,6 +96,13 @@
 <br>
 [supermercado-js](cap02/ex2_7.html/js/)
 <h4>  2.11- Considerações!</h4>
+<p>Alguns tópicos que considero essenciais:</p>
+<p>Técnicas para integrar os programas JavaScript com uma página web!</p>
+<p>A programação JavaScript em uma página web é geralmente acionada a partir da ocorrência de um evento!</p>
+<p>Referenciar um elemento HTML!</p>
+<p>Recuperar o conteúdo de um campo de formulário(propiedade value)!</p>
+<p>Alterar um texto exibido em um parágrafo ou linha de cabeçalho do documento(propiedade innerText)!</p>
+<p>Principais funções matemáticas disponíveis na classe Math!</p>
 <h3>3 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
 <hr>
 <h4>  3.1 - Instalação do Node.js</h4>
