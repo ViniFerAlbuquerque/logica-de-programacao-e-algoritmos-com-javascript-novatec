@@ -109,6 +109,7 @@
 
 [Node.js](https://nodejs.org/pt-br)
 <h4>  3.2 - Adição de pacote para entrada de dados!</h4>
+<p>prompt-sync()</p>
 <h4>  3.3 - Criação e execução de programas com o Node.js!</h4>
 <h4>  3.4 - Exemplos de algoritmos com Node.js!</h4>
 <h4>  3.5 - Considerações finais do capítulo!</h4>
