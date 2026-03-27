@@ -113,6 +113,7 @@
 <h4>  3.3 - Criação e execução de programas com o Node.js!</h4>
 
 [programa-soma-2-numeros](cap03/ex3_1.js/)
+[programa-revenda-de-automovel](cap03/ex3_2.js/)
 <h4>  3.4 - Exemplos de algoritmos com Node.js!</h4>
 <h4>  3.5 - Considerações finais do capítulo!</h4>
 <h3>4 CAPÍTULO 4 ■ Condições!</h3>
