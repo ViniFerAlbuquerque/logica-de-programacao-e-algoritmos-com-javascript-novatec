@@ -115,9 +115,10 @@
 [programa-soma-2-numeros](cap03/ex3_1.js/)
 <br>
 [programa-revenda-de-automovel](cap03/ex3_2.js/)
-<br>
-[programa-quadrienio](cap03/ex3_3.js)
 <h4>  3.4 - Exemplos de algoritmos com Node.js!</h4>
+
+[programa-quadrienio](cap03/ex3_3.js)
+<br>
 <h4>  3.5 - Considerações finais do capítulo!</h4>
 <h3>4 CAPÍTULO 4 ■ Condições!</h3>
 <hr>
