@@ -119,6 +119,7 @@
 
 [programa-quadrienio](cap03/ex3_3.js)
 <br>
+[programa-veterinaria](cap03/ex3_4.js)
 <h4>  3.5 - Considerações finais do capítulo!</h4>
 <h3>4 CAPÍTULO 4 ■ Condições!</h3>
 <hr>
