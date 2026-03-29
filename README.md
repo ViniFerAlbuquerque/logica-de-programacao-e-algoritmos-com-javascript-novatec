@@ -124,6 +124,7 @@
 <p>Responsável por rodar os programas JavaScript em um servidor web.</p>
 <p>O Node.js permite que vários pacotes adicionais sejam acrescentados aos programas!</p>
 <h3>4 CAPÍTULO 4 ■ Condições!</h3>
+<p>Diversas são as situações em um programa em que é necessário criar uma condição para indicar qual tarefa deve ser executada!</p>
 <hr>
 <h4>  4.1 - If... else...!</h4>
 <h4>  4.2 - Operadores relacionais!</h4>
