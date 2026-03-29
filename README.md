@@ -121,6 +121,8 @@
 <br>
 [programa-veterinaria](cap03/ex3_4.js)
 <h4>  3.5 - Considerações finais do capítulo!</h4>
+<p>Responsável por rodar os programas JavaScript em um servidor web.</p>
+<p>O Node.js permite que vários pacotes adicionais sejam acrescentados aos programas!</p>
 <h3>4 CAPÍTULO 4 ■ Condições!</h3>
 <hr>
 <h4>  4.1 - If... else...!</h4>
