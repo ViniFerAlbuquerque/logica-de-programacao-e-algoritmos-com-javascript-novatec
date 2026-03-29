@@ -89,15 +89,42 @@
 <br>
 [restaurante-js](cap02/ex2_4.html/js/)
 <h4>  2.10- Exercícios!</h4>
+
+[farmacia-js](cap02/ex2_5.html/js/)
+<br>
+[lan-house-js](cap02/ex2_6.html/js/)
+<br>
+[supermercado-js](cap02/ex2_7.html/js/)
 <h4>  2.11- Considerações!</h4>
+<p>Alguns tópicos que considero essenciais:</p>
+<p>Técnicas para integrar os programas JavaScript com uma página web!</p>
+<p>A programação JavaScript em uma página web é geralmente acionada a partir da ocorrência de um evento!</p>
+<p>Referenciar um elemento HTML!</p>
+<p>Recuperar o conteúdo de um campo de formulário(propiedade value)!</p>
+<p>Alterar um texto exibido em um parágrafo ou linha de cabeçalho do documento(propiedade innerText)!</p>
+<p>Principais funções matemáticas disponíveis na classe Math!</p>
 <h3>3 CAPÍTULO 3 ■ Construção de algoritmos com Node.js</h3>
 <hr>
 <h4>  3.1 - Instalação do Node.js</h4>
+
+[Node.js](https://nodejs.org/pt-br)
 <h4>  3.2 - Adição de pacote para entrada de dados!</h4>
+<p>prompt-sync()</p>
 <h4>  3.3 - Criação e execução de programas com o Node.js!</h4>
+
+[programa-soma-2-numeros](cap03/ex3_1.js/)
+<br>
+[programa-revenda-de-automovel](cap03/ex3_2.js/)
 <h4>  3.4 - Exemplos de algoritmos com Node.js!</h4>
+
+[programa-quadrienio](cap03/ex3_3.js)
+<br>
+[programa-veterinaria](cap03/ex3_4.js)
 <h4>  3.5 - Considerações finais do capítulo!</h4>
+<p>Responsável por rodar os programas JavaScript em um servidor web.</p>
+<p>O Node.js permite que vários pacotes adicionais sejam acrescentados aos programas!</p>
 <h3>4 CAPÍTULO 4 ■ Condições!</h3>
+<p>Diversas são as situações em um programa em que é necessário criar uma condição para indicar qual tarefa deve ser executada!</p>
 <hr>
 <h4>  4.1 - If... else...!</h4>
 <h4>  4.2 - Operadores relacionais!</h4>
