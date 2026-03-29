@@ -129,7 +129,7 @@
 <h4>  4.1 - If... else...!</h4>
 <h4>  4.2 - Operadores relacionais!</h4>
 
-[situacao-do-Aluno](ex4_1.html)
+[situacao-do-aluno](cap04/ex4_1.js/)
 <h4>  4.3 - Operadores lógicos!</h4>
 <h4>  4.4 - Operador ternário!</h4>
 <h4>  4.5 - Switch... Case...</h4>
