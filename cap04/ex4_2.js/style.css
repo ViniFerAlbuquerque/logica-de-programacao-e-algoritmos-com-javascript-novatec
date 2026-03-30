@@ -3,7 +3,7 @@ body {
     background-image: linear-gradient(to left, #524d4d, #413e3e);
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
-    min-height: 50vh;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ body {
 }
 
 .design-section {
-    width: 60%;
+    width: 50%;
     border: 1px solid #d2d2d2;
     border-radius: 10px;
     padding: 4px;
@@ -29,6 +29,7 @@ img {
     float: left;
     height: 300px;
     width: 300px;
+    border-radius: 10px;
 }
 
 h1 {
