@@ -131,7 +131,10 @@
 
 [situacao-do-aluno](cap04/ex4_1.js/)
 <h4>  4.3 - Operadores lógicos!</h4>
+
+[programa-calculo-do-peso-ideal](cap04/ex4_2.js/)
 <h4>  4.4 - Operador ternário!</h4>
+<p>const categoria = idade >= ? "Adulto" : "Juvenil"</p>
 <h4>  4.5 - Switch... Case...</h4>
 <h4>  4.6 - Exemplos com HTML e JavaScript!</h4>
 <h4>  4.7 - Exemplos com Node.js</h4>
