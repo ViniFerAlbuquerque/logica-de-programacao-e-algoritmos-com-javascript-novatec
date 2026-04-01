@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to botton, #55AA60, #6055AA);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 000, 0.2), rgba(255, 255, 000, 1));
+    background-attachment: fixed;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+h1 {
+    margin-top: auto;
+    font-size: 4rem;
+    padding: 11px;
+    background-image: linear-gradient(to left, hsl(19, 38%, 77%), #000000);
+    background-clip: text; 
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 10s linear infinite;
+}
+@keyframes gradientAnimation{
+    0%{
+        background-position: 200% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
