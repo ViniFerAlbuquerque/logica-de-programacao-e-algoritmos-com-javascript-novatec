@@ -136,6 +136,8 @@
 <h4>  4.4 - Operador ternário!</h4>
 <p>const categoria = idade >= ? "Adulto" : "Juvenil"</p>
 <h4>  4.5 - Switch... Case...</h4>
+
+[bairro-de-entrega](cap04/ex4_3.js/)
 <h4>  4.6 - Exemplos com HTML e JavaScript!</h4>
 <h4>  4.7 - Exemplos com Node.js</h4>
 <h4>  4.8 - Exercícios de condições!</h4>
