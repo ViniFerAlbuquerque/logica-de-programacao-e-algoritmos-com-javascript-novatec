@@ -1,4 +1,4 @@
-<h1>Lógica de Programação e Algoritmos com JavaScript - 2ª Edição da Novatec, do autor Edécio Fernando Iepsen.</h1>
+<h1>Lógica de Programação e Algoritmos com JavaScript - 2ª Edição da Novatec, do autor Edécio Fernando Iepsen.🚧</h1>
 
 [Livro](https://www.novatec.com.br/livros/logica-programacao-algoritmos-com-javascript-2ed/)
 
