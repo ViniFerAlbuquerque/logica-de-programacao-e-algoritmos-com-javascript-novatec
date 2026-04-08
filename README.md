@@ -141,6 +141,8 @@
 <h4>  4.6 - Exemplos com HTML e JavaScript!</h4>
 
 [programa-fuso-horario](cap04/ex4_4.js)
+<br>
+[programa-caixa-eletronico](cp04/ex4_5.js)
 <h4>  4.7 - Exemplos com Node.js</h4>
 <h4>  4.8 - Exercícios de condições!</h4>
 <h4>  4.9 - Considerações finais do capítulo!</h4>
