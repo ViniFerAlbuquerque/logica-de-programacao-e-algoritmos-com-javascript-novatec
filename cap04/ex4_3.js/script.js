@@ -22,7 +22,9 @@ switch (bairro) {
         taxaEntrega = 10.00
         break
     case "Parolim":
-        taxaEntrega = 999
+        taxaEntrega = 20.00
         break
+    default:
+        taxaEntrega = 30.00
 }
 alert(`Taxa R$: ${taxaEntrega.toFixed(2)}`)
