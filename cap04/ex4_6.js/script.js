@@ -5,6 +5,11 @@ const resp3 = document.querySelector("#outResp3")
 
 frm.addEventListener("submit", (e) => {
     e.preventDefault()
+
+    resp1.innerText = "";
+    resp2.innerText = "";
+    resp3.innerText = "";
+
     const saque = Number(frm.inSaque.value)
     if (saque % 10 != 0) {
         alert("[ERRO!]→Valor inválido para notas disponíveis (R$ 10, 50, 100)")
@@ -25,4 +30,7 @@ frm.addEventListener("submit", (e) => {
     if (notasDez > 0) {
         resp3.innerText = `Notas de R$10: ${notasDez}`
     }
+    frm.reset();
+    frm.inSaque.focus();
 })
+
