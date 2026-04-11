@@ -150,6 +150,8 @@
 [programa-pescaria](cap04/nodejs/ex4_7.js/index.js)
 <br>
 [programa-farmacia](cap04/nodejs/ex4_8.js/index.js)
+<br>
+[programa-inverte-centena](cap04/nodejs/ex4_9.js/index.js)
 <h4>  4.8 - Exercícios de condições!</h4>
 <h4>  4.9 - Considerações finais do capítulo!</h4>
 <h3>5 CAPÍTULO 5 ■ Repetições!</h3>
