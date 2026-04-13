@@ -54,6 +54,11 @@ p {
     padding: 5px;
     color: #ece9e6;
 }
+p::first-letter {
+    color: #aa00aa; /* Cor da primeira letra */
+    font-size: 1.2em; /* Opcional: aumentar o tamanho */
+    font-weight: bold; /* Opcional: negrito */
+}
 
 input[type="submit"] {
     background: #a3bd2f;
@@ -71,10 +76,8 @@ input[type="submit"] {
     color: #6138d4;
 }
 
-h3 {
-    font-size: 2em;
+section {
+    padding: 15px;
 }
 
-section {
-    padding: 20px;
-}
+
