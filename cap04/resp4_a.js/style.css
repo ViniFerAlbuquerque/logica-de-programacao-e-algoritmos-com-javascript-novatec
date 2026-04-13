@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 290px;
+    width: 290px;
+}
+
+body {
+    background-image: -webkit-radial-gradient(#110011, #aa00aa, #00aa00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background: #2abe1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+h1 {
+    padding: 15px;
+    margin-top: 5px;    
+    color: #FFFFFF;
+}
+h1::first-letter {
+    color: #aa00aa; /* Cor da primeira letra */
+    font-size: 1.2em; /* Opcional: aumentar o tamanho */
+    font-weight: bold; /* Opcional: negrito */
+}
+
+input[type="number"] {
+    background-image: linear-gradient(to right, #ece9e6 55%, #aa00aa);
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 6px;
+    font-size: 20px;
+    width: 90px;
+    cursor: pointer;
+    color: #aa00aa;
+}
+
+p {
+    font-size: 29px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding: 5px;
+    color: #ece9e6;
+}
+
+input[type="submit"] {
+    background: #a3bd2f;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 5vh;
+    margin: 20px 100px;
+    background-image: linear-gradient(to right,#FFFFFF 66%, #aa00aa);
+    color: #6138d4;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+section {
+    padding: 20px;
+}
