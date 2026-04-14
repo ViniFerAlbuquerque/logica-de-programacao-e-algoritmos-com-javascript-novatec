@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/livrojs.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Programa Verifica Velocidade!</title>
+</head>
+
+<body>
+    <main>
+
+        <img src="../assets/exerc.jpg" alt="Imagem Ferramentas de Desenvolvimento!">
+
+        <!-- <section>
+            <h1>Programa Verifica Velocidade:</h1>
+
+            <p>Velocidade Permitida: <input type="number" name="velPermitida" id="velPermitida"></p>
+
+            <p>Velocidade do Condutor: <input type="number" name="velCondutor" id="velCondutor"></p>
+
+            <button id="btnVerificar">Verificar Velocidade</button>
+
+            <section>
+                <h2 id="resultado"></h2>
+        </section> -->
+
+        <section>
+            <h1>Programa Verifica Velocidade (Tempo Real):</h1>
+
+            <label for="velPermitida">Velocidade Permitida:</label><br />
+            <input type="number" id="velPermitida" placeholder="Km/h" min="1" /><br />
+            <label for="velCondutor">Velocidade do Condutor:</label><br />
+            <input type="number" id="velCondutor" placeholder="Km/h" min="0" /><br />
+
+            <section>
+                <div id="resultado"></div>
+            </section>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
