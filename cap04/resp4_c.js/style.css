@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(180deg, #9fc5e9, #406388);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    height: 290px;
+    width: 290px;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 7px;
+}
+
+h1 {
+    margin: 2px 5px 5px 22px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+h1::first-letter {
+    color: #36e75d;
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+label {
+    font-size: 29px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 1px;
+    color: #ece9e6;
+}
+
+input[type="number"] {
+    background-image: linear-gradient(to right, #ece9e6 55%, #a895f3);
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 7px;
+    font-size: 20px;
+    width: 200px;
+    cursor: pointer;
+    color: #044612;
+    margin-left: 10px;
+}
+
+form {
+    margin: 10px;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px 100px;
+    background-image: linear-gradient(to right, #382b85 30%, #2791c2);
+    color: #c8da2c;
+}
+
+button:hover {
+    opacity: .9;
+    transform: scale(1.1);
+    transition: all 0.5s ease
+}
+
+#time {
+    font-size: 22px;
+    margin-left: 21px;
+    color: rgb(95, 6, 6);
+}
+
+#change {
+    font-size: 18px;
+    margin-left: 21px;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 800px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 65vw;
+        background-color: blue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 7px;
+    }
+
+    main {
+        width: 85vw;
+        height: 68vh;
+        padding: 2px;
+    }
+
+    img {
+        height: 120px;
+        width: 120px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 11px;
+    }
+
+    input[type="number"] {
+        width: 80%;
+    }
+
+    label {
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: 9px;
+        padding: 1px;
+        color: #ece9e6;
+    }
+}
