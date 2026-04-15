@@ -155,6 +155,8 @@
 <h4>  4.8 - Exercícios de condições!</h4>
 
 [programa-par-ou-impar](cap04/resp4_a.js)
+<br>
+[programa-verifica-velocidade](cap04/resp4_b.js/)
 <h4>  4.9 - Considerações finais do capítulo!</h4>
 <h3>5 CAPÍTULO 5 ■ Repetições!</h3>
 <hr>
