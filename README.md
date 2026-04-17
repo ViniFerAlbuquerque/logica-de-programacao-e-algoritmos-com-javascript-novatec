@@ -159,6 +159,8 @@
 [programa-verifica-velocidade](cap04/resp4_b.js/)
 <br>
 [programa-parquimetro](cap04/resp4_c.js/)
+<br>
+[programa-lados-de-um-triangulo](cap04/resp4_d.js/)
 <h4>  4.9 - Considerações finais do capítulo!</h4>
 <h3>5 CAPÍTULO 5 ■ Repetições!</h3>
 <hr>
