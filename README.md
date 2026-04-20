@@ -173,6 +173,11 @@
 <p>maior ou igual (>=)</p>
 <p>menor ou igual (<=)</p>
 <p>Cada condição deve retornar um valor lógico de verdadeiro ou falso, como if (idade >= 18).</p>
+<p>Os operadores lógicos:</p>
+<p>not (!)</p>
+<p>and (&&)</p>
+<p>or (||)</p>
+  
 <h3>5 CAPÍTULO 5 ■ Repetições!</h3>
 <hr>
 <h4>  5.1 - Repetição com variável de controle: laços for!</h4>
