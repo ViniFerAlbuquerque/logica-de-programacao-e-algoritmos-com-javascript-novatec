@@ -176,7 +176,7 @@
 <p>Os operadores lógicos:</p>
 <p>not (!)</p>
 <p>and (&&)</p>
-<p>or (||)</p>
+<p>or ( || )</p>
   
 <h3>5 CAPÍTULO 5 ■ Repetições!</h3>
 <hr>
