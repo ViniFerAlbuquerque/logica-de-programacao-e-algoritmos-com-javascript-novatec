@@ -159,8 +159,27 @@
 [programa-verifica-velocidade](cap04/resp4_b.js/)
 <br>
 [programa-parquimetro](cap04/resp4_c.js/)
+<br>
+[programa-lados-de-um-triangulo](cap04/resp4_d.js/)
 <h4>  4.9 - Considerações finais do capítulo!</h4>
+<p>Para definir uma condição em JavaScript, podem ser utilizados os comandos if... else ou switch.. case.</p>
+<p>Quando o número de opções for grande e baseado no conteúdo de uma variável, é recomendável utilizar o switch.. case.</p>
+<p>Os demais casos podem ser resolvidos com a estrutura condicional if.. else.</p>
+<p>As condições são definidas a partir do uso dos operadores relacionais:</p>
+<p>igual (==)</p>
+<p>diferente (!=)</p>
+<p>maior (>)</p>
+<p>menor (<)</p>
+<p>maior ou igual (>=)</p>
+<p>menor ou igual (<=)</p>
+<p>Cada condição deve retornar um valor lógico de verdadeiro ou falso, como if (idade >= 18).</p>
+<p>Os operadores lógicos:</p>
+<p>not (!)</p>
+<p>and (&&)</p>
+<p>or ( || )</p>
+  
 <h3>5 CAPÍTULO 5 ■ Repetições!</h3>
+<p>Para construir as estruturas de repetição em um programa, a linguagem JavaScript dispõe dos comandos for, while e do... while. Pequenas particularidades fazem com que o uso de cada um deles seja mais adequado para uma ou outra situação.</p>
 <hr>
 <h4>  5.1 - Repetição com variável de controle: laços for!</h4>
 <h4>  5.2 - Repetição com teste no início laços while!</h4>
