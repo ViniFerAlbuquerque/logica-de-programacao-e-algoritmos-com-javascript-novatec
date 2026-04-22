@@ -183,7 +183,7 @@
 <hr>
 <h4>  5.1 - Repetição com variável de controle: laços for!</h4>
 
-[programa-tabuada](ex5_1.html)
+[programa-tabuada](cap05/ex5_1.js/)
 <h4>  5.2 - Repetição com teste no início laços while!</h4>
 <h4>  5.3 - Repetição com teste no final: laços do... while!</h4>
 <h4>  5.4 - Interrupções nos laços (break e continue)</h4>
