@@ -182,6 +182,8 @@
 <p>Para construir as estruturas de repetição em um programa, a linguagem JavaScript dispõe dos comandos for, while e do... while. Pequenas particularidades fazem com que o uso de cada um deles seja mais adequado para uma ou outra situação.</p>
 <hr>
 <h4>  5.1 - Repetição com variável de controle: laços for!</h4>
+
+[programa-tabuada](ex5_1.html)
 <h4>  5.2 - Repetição com teste no início laços while!</h4>
 <h4>  5.3 - Repetição com teste no final: laços do... while!</h4>
 <h4>  5.4 - Interrupções nos laços (break e continue)</h4>
