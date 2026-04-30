@@ -192,6 +192,8 @@
 
 [programa-js-para-ilustrar-o-funcionamento-do-laco-do..-while](cap05/ex5_3.js/)
 <h4>  5.4 - Interrupções nos laços (break e continue)</h4>
+
+[uso-dos-comandos-break-e-continue-em-um-laco-de-repeticao](cap05/ex5_4.js)
 <h4>  5.5 - Contadores e acumuladores!</h4>
 <h4>  5.6 - Depurar programas (detectar erros)!</h4>
 <h4>  5.7 - Exemplos de algoritmos de repetição com Node.js</h4>
@@ -255,3 +257,5 @@
 <hr>
 <h4> 11.1 - Programa Jockey Club!</h4>
 <h4> 11.2 - Programa Reserva de Poltronas em Teatro!</h4>
+<h4> 11.3 - Jogo "Descubra a Palavra"</h4>
+
