@@ -27,9 +27,70 @@ h1 {
     -webkit-text-stroke-color: rgb(36, 27, 85);
     /* Cor da borda */
 }
+h1::first-letter {
+    color: #f0f5f7;
+    font-size: 1.9em;
+    font-weight: bold;
+}
 
 h2 {
     margin: 15px;
     color: rgb(36, 27, 85);
     -webkit-text-stroke-width: 1.1px;
+}
+
+input[type="number"] {
+    background-image: linear-gradient(to right, #ece9e6 55%, #1192b3);
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 20px;
+    width: 100px;
+    cursor: pointer;
+    color: #1192b3;
+}
+
+input[type="text"] {
+    background-image: linear-gradient(to right, #ece9e6 55%, #1192b3);
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 20px;
+    width: 300px;
+    cursor: pointer;
+    color: #1192b3;
+}
+
+input[type="submit"] {
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 80px;
+    background-image: linear-gradient(to right, #1192b3 30%, #2791c2);
+    color: #171815;
+    width: 185px;
+}
+input[type="submit"]:hover {
+    opacity: .9;
+    transform: scale(1.1);
+    transition: all 0.5s ease
+}
+
+pre {
+    font-size: 20px;
+}
+
+@media (max-width: 800px) {
+
+    body {
+    background-image: linear-gradient(to right, #407ed4, #387aec);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
 }
