@@ -14,7 +14,7 @@ body {
 
 img {
     width: 290px;
-    height: 290px;
+    height: 490px;
     border-radius: 15px;
 }
 
@@ -80,6 +80,7 @@ input[type="submit"]:hover {
 
 pre {
     font-size: 20px;
+    margin: 15px;
 }
 
 @media (max-width: 800px) {
@@ -91,6 +92,23 @@ pre {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 15px;
+}
+
+section {
+    margin: 3px 25px 1px 25px;
+    color: #ece9e6;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+pre {
+    font-size: 15px;
+    margin: 20px;
 }
     
 }
