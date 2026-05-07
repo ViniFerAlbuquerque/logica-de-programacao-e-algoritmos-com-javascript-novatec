@@ -203,6 +203,10 @@
 
 [programa-fabrica-de-estrelas](cap05/ex5_7.js/)
 <h4>  5.7 - Exemplos de algoritmos de repetição com Node.js</h4>
+
+[programa-anos-de-copa-do-mundo](cap05/nodejs/ex5_8.js/scrip.js)
+<br>
+C:\livrojs\cap05\nodejs\ex5_8.js> node .\scrip.js
 <h4>  5.8 - Exercícios!</h4>
 <h4>  5.9 - Considerações finais do capítulo!</h4>
 <h3>6 CAPÍTULO 6 ■ Vetores!</h3>
