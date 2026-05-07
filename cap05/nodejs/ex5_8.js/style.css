@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: repeating-radial-gradient(#F8C473, #69C08A);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    color:#0000FF;
+    letter-spacing: 3px;
+}
+h1::first-letter {
+    color: #F9F9F9;
+    font-size:90px;
+    font-weight: bold;
+}
