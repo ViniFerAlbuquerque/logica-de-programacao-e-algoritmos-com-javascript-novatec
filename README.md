@@ -212,6 +212,9 @@ C:\livrojs\cap05\nodejs\ex5_8.js> node .\scrip.js
 [programa-etiquetas](cap05/nodejs/ex5_9.js/)
 <br>
 C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
+<br>
+<br>
+[programa-calculo-das-parcelas](cap05/nodejs/ex5_10.js/)
 <h4>  5.8 - Exercícios!</h4>
 <h4>  5.9 - Considerações finais do capítulo!</h4>
 <h3>6 CAPÍTULO 6 ■ Vetores!</h3>
