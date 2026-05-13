@@ -27,6 +27,7 @@ h1 {
     margin: 15px;
     letter-spacing: 1px;
 }
+
 h1::first-letter {
     color: #080531;
     font-size: 60px;
@@ -41,6 +42,19 @@ h2 {
 h3 {
     font-size: 20px;
     margin: 15px;
+    font-weight: 600;
+    /* Negrito leve para destacar */
+    color: #2c3e50;
+    /* Cor escura e suave, mais agradável que preto puro */
+    border-radius: 8px;
+    /* Bordas arredondadas para suavizar */
+    white-space: pre-line;
+    /* Respeita quebras de linha no texto */
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.7);
+    /* Sombra leve para destacar o bloco */
+    max-width: 400px;
+    /* Limita a largura para não ficar muito esticado */
+    padding: 4px;
 }
 
 input[type="number"] {
@@ -65,6 +79,7 @@ button {
     color: #eeddcc;
     width: 285px;
 }
+
 button:hover {
     opacity: .7;
     transform: scale(1.1);
@@ -110,7 +125,10 @@ button:hover {
 
     h3 {
         font-size: 18px;
-        margin: 15px;
+        margin: 18px;
+        white-space: pre-line;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
     }
 
 }
