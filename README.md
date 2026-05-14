@@ -215,6 +215,8 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <br>
 <br>
 [programa-calculo-das-parcelas](cap05/nodejs/ex5_10.js/)
+<br>
+[programa-criacao-de-chinchilas](cap05/resp5_b/script.js)
 <h4>  5.8 - Exercícios!</h4>
 
 [programa-repete-fruta](cap05/resp5_a/script.js)
