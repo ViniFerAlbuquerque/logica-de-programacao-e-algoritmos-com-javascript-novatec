@@ -13,11 +13,126 @@ body {
 }
 
 img {
-    width: 300px;
-    height: 280px;
+    width: 320px;
+    height: 370px;
     border-radius: 15px;
 }
 
-section {
-    margin: 10px;
+h1 {
+    color: #3b3b3b;
+    margin: 15px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px #1b1b1b;
+}
+
+h1::first-letter {
+    color: #10c4e4;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    color: rgb(59, 59, 59);
+    margin: 16px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 15px;
+    font-weight: 600;
+    /* Negrito leve para destacar */
+    color: #2c3e50;
+    /* Cor escura e suave, mais agradável que preto puro */
+    border-radius: 8px;
+    /* Bordas arredondadas para suavizar */
+    white-space: pre-line;
+    /* Respeita quebras de linha no texto */
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.7);
+    /* Sombra leve para destacar o bloco */
+    max-width: 400px;
+    /* Limita a largura para não ficar muito esticado */
+    padding: 3px;
+}
+
+input[type="text"] {
+    background-image: linear-gradient(to right, #ece9e6 55%, #3b3b3b);
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 20px;
+    width: 160px;
+    cursor: pointer;
+    color: #055d6d;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 50px;
+    background-image: linear-gradient(to right, #0cadb8 1%, #055d6d);
+    color: #eeddcc;
+    width: 285px;
+}
+
+button:hover {
+    opacity: .7;
+    transform: scale(1.1);
+    transition: all 0.8s ease;
+    background-image: linear-gradient(to right, #080531 30%, #278546);
+    color: rgb(189, 223, 206);
+}
+
+@media (max-width: 800px) {
+
+    body {
+        background-image: linear-gradient(to right, #bdd3f1, #6c95db);
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* margin: 3px 35px 2px 25px; */
+    }
+
+    section {
+        color: #ece9e6;
+        height: 90vh;
+    }
+
+    input[type="text"] {
+        background-image: linear-gradient(to right, #ece9e6 55%, #3b3b3b);
+        border-radius: 10px;
+        border: 1px solid;
+        padding: 5px;
+        font-size: 20px;
+        width: 140px;
+        cursor: pointer;
+        color: darkgreen;
+    }
+
+    img {
+        width: 140px;
+        height: 120px;
+        border-radius: 25px;
+        margin-top: 49  px;
+    }
+
+    h1 {
+        color: #696969;
+        margin: 15px;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 2px #1b1b1b;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin: 18px;
+        white-space: pre-line;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+    }
+
 }
