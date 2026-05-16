@@ -222,6 +222,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <br>
 [programa-criacao-de-chinchilas](cap05/resp5_b/script.js)
 <br>
+[programa-nmeros-perfeitos](cap05/resp5_c/script.js)
 <h4>  5.9 - Considerações finais do capítulo!</h4>
 <h3>6 CAPÍTULO 6 ■ Vetores!</h3>
 <hr>
