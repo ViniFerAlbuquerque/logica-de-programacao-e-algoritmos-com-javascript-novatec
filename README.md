@@ -236,7 +236,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <p>push() → Adiciona um elemento ao final do vetor!</p>
 <p>unshift() → Adiciona um elemento ao início do vetor e desloca os elementos existentes uma posição abaixo!</p>
 <p>pop() → Remove o último elemento do vetor!</p>
-<p>Remove o primeiro elemento do vetor e desloca os elementos existentes uma posição acima!</p>
+<p>shift() → Remove o primeiro elemento do vetor e desloca os elementos existentes uma posição acima!</p>
 <h4>  6.2 - Tamanho do vetor e exibição dos itens!</h4>
 <h4>  6.3 - For...of e forEach()</h4>
 <h4>  6.4 - Localizar conteúdo</h4>
