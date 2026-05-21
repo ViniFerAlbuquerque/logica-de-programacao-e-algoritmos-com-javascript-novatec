@@ -240,6 +240,9 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <p>slice( ) → Retorna um novo array com as informações escolhidas!</p>
 <p>splice( ) → Remove ou adiciona elementos em uma posição pré-determinada!</p>
 <h4>  6.2 - Tamanho do vetor e exibição dos itens!</h4>
+<p>lenght → Mostra o tamanho e a quantidade de itens dentro do array.</p>
+<p>join( ) → O método junta todos os elementos de um array </p>
+<p>toString( ) → Criar uma representação em string do objeto que o chama!</p>
 <h4>  6.3 - For...of e forEach()</h4>
 <h4>  6.4 - Localizar conteúdo</h4>
 <h4>  6.5 - Vetores de objejos!</h4>
