@@ -233,10 +233,12 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <p>Os vetores ou arrays são estruturas que permitem armazenar uma lista de dados na memória principal do computador.</p>
 <hr>
 <h4>  6.1 - Inclusão e exclusão de itens!</h4>
-<p>push() → Adiciona um elemento ao final do vetor!</p>
-<p>unshift() → Adiciona um elemento ao início do vetor e desloca os elementos existentes uma posição abaixo!</p>
-<p>pop() → Remove o último elemento do vetor!</p>
-<p>shift() → Remove o primeiro elemento do vetor e desloca os elementos existentes uma posição acima!</p>
+<p>push( ) → Adiciona um elemento ao final do vetor!</p>
+<p>unshift( ) → Adiciona um elemento ao início do vetor e desloca os elementos existentes uma posição abaixo!</p>
+<p>pop( ) → Remove o último elemento do vetor!</p>
+<p>shift( ) → Remove o primeiro elemento do vetor e desloca os elementos existentes uma posição acima!</p>
+<p>slice( ) → Retorna um novo array com as informações escolhidas!</p>
+<p>splice( ) → Remove ou adiciona elementos em uma posição pré-determinada!</p>
 <h4>  6.2 - Tamanho do vetor e exibição dos itens!</h4>
 <h4>  6.3 - For...of e forEach()</h4>
 <h4>  6.4 - Localizar conteúdo</h4>
