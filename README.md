@@ -222,11 +222,27 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <br>
 [programa-criacao-de-chinchilas](cap05/resp5_b/script.js)
 <br>
+[programa-numeros-perfeitos](cap05/resp5_c/script.js)
 <h4>  5.9 - Considerações finais do capítulo!</h4>
+<p>O comando for contém uma vriável de controle e sua sintaxe inclui três instruções: o valor inicial dessa variável de controle, a condição a ser verificada para que a repetição continue e o incremento ou decremento da variável a cada volta.</p>
+<p>Os comandos while e do.. while também permitem criar estruturas de repetiçao. A diferença entre eles é que no while a condição é testada no início do laço, enquanto no do.. while a condição é testada no final. Isso significa que os comandos pertencentes ao while podem não ser executados - se a condição retornar falso na sua primeira verificação. Já com o do.. while, temos a garantia de que, no mínimo, uma vez os comandos do laço. Essas estruturas, por sua vez, são geralmente utilizadas quando não sabemos previamente quantas vezes os comandos da estrutura serão executados.</p>
+<p>Existem dois comandos especiais que podem ser utilizados nos laços de repetição: break e continue.</p>
+<p>Nos contadores, o incremento é uma constante e, nos acumuladores, uma variável.</p>
+<p>O debug permite identificar erros de sintaxe e de lógica em seu programa.</p>
 <h3>6 CAPÍTULO 6 ■ Vetores!</h3>
+<p>Os vetores ou arrays são estruturas que permitem armazenar uma lista de dados na memória principal do computador.</p>
 <hr>
 <h4>  6.1 - Inclusão e exclusão de itens!</h4>
+<p>push( ) → Adiciona um elemento ao final do vetor!</p>
+<p>unshift( ) → Adiciona um elemento ao início do vetor e desloca os elementos existentes uma posição abaixo!</p>
+<p>pop( ) → Remove o último elemento do vetor!</p>
+<p>shift( ) → Remove o primeiro elemento do vetor e desloca os elementos existentes uma posição acima!</p>
+<p>slice( ) → Retorna um novo array com as informações escolhidas!</p>
+<p>splice( ) → Remove ou adiciona elementos em uma posição pré-determinada!</p>
 <h4>  6.2 - Tamanho do vetor e exibição dos itens!</h4>
+<p>lenght → Mostra o tamanho e a quantidade de itens dentro do array.</p>
+<p>join( ) → O método junta todos os elementos de um array </p>
+<p>toString( ) → Criar uma representação em string do objeto que o chama!</p>
 <h4>  6.3 - For...of e forEach()</h4>
 <h4>  6.4 - Localizar conteúdo</h4>
 <h4>  6.5 - Vetores de objejos!</h4>
