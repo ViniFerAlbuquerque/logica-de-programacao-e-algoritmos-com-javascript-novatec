@@ -246,6 +246,8 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 
 [tamanho-vetor-exibicao-itens](cap06/tamanho-exibicao/script.js)
 <h4>  6.3 - For...of e forEach()</h4>
+
+[consultorio-odontologico](cap06/ex6_1/)
 <h4>  6.4 - Localizar conteúdo</h4>
 <h4>  6.5 - Vetores de objejos!</h4>
 <h4>  6.6 - Desestruturação e operador Rest/Spread!</h4>
