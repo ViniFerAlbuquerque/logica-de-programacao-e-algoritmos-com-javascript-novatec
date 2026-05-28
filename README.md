@@ -243,6 +243,8 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <p>lenght → Mostra o tamanho e a quantidade de itens dentro do array.</p>
 <p>join( ) → O método junta todos os elementos de um array </p>
 <p>toString( ) → Criar uma representação em string do objeto que o chama!</p>
+
+[tamanho-vetor-exibicao-itens](cap06/tamanho-exibicao/script.js)
 <h4>  6.3 - For...of e forEach()</h4>
 <h4>  6.4 - Localizar conteúdo</h4>
 <h4>  6.5 - Vetores de objejos!</h4>
@@ -298,4 +300,6 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 11.1 - Programa Jockey Club!</h4>
 <h4> 11.2 - Programa Reserva de Poltronas em Teatro!</h4>
 <h4> 11.3 - Jogo "Descubra a Palavra"</h4>
+<h4>  11.3.1 - Cadastro de palavras!</h4>
+<h4>  11.3.2 - Listagem de palavras!</h4>
 
