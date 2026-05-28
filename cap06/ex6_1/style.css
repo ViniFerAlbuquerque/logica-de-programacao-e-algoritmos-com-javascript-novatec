@@ -1,0 +1,215 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: linear-gradient(to right, #ffffff 19%, #b2dd68);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    img.alta {
+        /* float: left; */
+        height: 420px;
+        width: 300px;
+        border-radius: 15px;
+        margin: 2px;
+    }
+
+    h1 {
+        border-bottom-style: inset;
+        padding: 30px;
+        color: #085008;
+    }
+
+    form h2 {
+        padding: 25px;
+        color: #00AD63;
+    }
+
+    input[type="text"] {
+        border-radius: 10px;
+        border: 1px solid;
+        padding: 5px;
+        font-size: 20px;
+        width: 490px;
+        cursor: pointer;
+        color: #1192b3;
+        background-image: linear-gradient(to right, #ffffff 19%, #b2dd68);
+    }
+
+    input[type="submit"] {
+        border-radius: 10px;
+        border: 1px solid;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        color: #171815;
+        width: 185px;
+        color: #085008;
+        background-image: linear-gradient(to right, #ffffff 19%, #b2dd68);
+    }
+
+    input[type="submit"]:hover {
+        opacity: .9;
+        transform: scale(1.1);
+        transition: all 0.5s ease
+    }
+
+    input[type="button"] {
+        border-radius: 10px;
+        border: 1px solid;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        color: #171815;
+        width: 185px;
+        color: #085008;
+        background-image: linear-gradient(to right, #ffffff 19%, #b2dd68);
+    }
+
+    input[type="button"]:hover {
+        opacity: .9;
+        transform: scale(1.1);
+        transition: all 0.5s ease
+    }
+
+    #btAtender {
+        background-image: linear-gradient(to right, #ffffff 19%, #0000ff);
+        color: #660909;
+        margin: 10px 80px 10px 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #btUrgencia {
+        background-image: linear-gradient(to right, #ffffff 19%, #ff0000);
+        color: #660909;
+        margin: 0px 0px 10px 5px;
+    }
+
+    h3 {
+        color: #1192b3;
+        margin: 15px;
+        font-size: 29px;
+    }
+
+    pre {
+        font-size: 1.2em;
+        font-size: 20px;
+        margin: 15px;
+        font-weight: 600;
+        /* Negrito leve para destacar */
+        color: #2c3e50;
+        /* Cor escura e suave, mais agradável que preto puro */
+        border-radius: 8px;
+        /* Bordas arredondadas para suavizar */
+        white-space: pre-line;
+        /* Respeita quebras de linha no texto */
+        box-shadow: 0 4px 9px rgba(0, 0, 0, 0.7);
+        /* Sombra leve para destacar o bloco */
+        max-width: 400px;
+        /* Limita a largura para não ficar muito esticado */
+        padding: 3px;
+
+    }
+
+    .fonte-azul {
+        color: #0000ff;
+    }
+
+    .oculta {
+        display: none;
+    }
+
+    .exibe {
+        display: inline;
+    }
+
+    .italico {
+        font-style: italic;
+    }
+
+
+    @media (max-width: 1107px) {
+
+        /* body {
+            background-image: linear-gradient(to top, #b2dd68 59%, #FFFFFF);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+        } */
+
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 40vh;
+            margin-top: 5px;
+        }
+
+        input[type="text"] {
+            width: 330px;
+        }
+
+        img.alta {
+            height: 200px;
+            width: 280px;
+            border-radius: 15px;
+            margin-top: 9px;
+        }
+    }
+
+    @media (max-width: 780px) {
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin-top: 5px;
+        }
+
+        .img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 2px 5px;
+        }
+
+        
+        .img.alta {
+            /* height: 200px;
+            width: 180px;
+            border-radius: 15px;
+            margin: 5px; */
+            object-fit: cover;
+
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 20vh;
+        }
+    }
