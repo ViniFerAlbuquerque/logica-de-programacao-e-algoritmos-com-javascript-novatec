@@ -94,7 +94,8 @@
 <br>
 [lan-house-js](cap02/ex2_6.html/js/)
 <br>
-[supermercado-js](cap02/ex2_7.html/js/)
+[supermercado-js](cap02/ex2_7.html/js/) <br>
+<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap02/ex2_7.html/assets/supermercado-js.png?raw=true">
 <h4>  2.11- Considerações!</h4>
 <p>Alguns tópicos que considero essenciais:</p>
 <p>Técnicas para integrar os programas JavaScript com uma página web!</p>
