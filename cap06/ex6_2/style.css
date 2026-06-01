@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    background-color: #777aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    height: 400px;
+    border-radius: 25px;
+}
+
+section {
+    margin: 10px;
+}
+
+h1 {
+    color: #7fffd4;
+    letter-spacing: 3px;
+    text-shadow: 2px 6px 9px #1b1b1b;
+}
+
+h1::first-letter {
+    color: #a2e4cd;
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 65px;
+}
+
+input[type="number"] {
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 36px;
+    width: 101px;
+    cursor: pointer;
+    color: #1192b3;
+    background-image: linear-gradient(to right, #ffffff 19%, #a2e4a2);
+}
+
+input[type="submit"] {
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #171815;
+    width: 185px;
+    color: #085008;
+    background-image: linear-gradient(to right, #ffffff 19%, #b2dd68);
+}
+
+input[type="submit"]:hover {
+    opacity: .9;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    color: #ff0000;
+}
+
+input[type="button"] {
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #171815;
+    width: 185px;
+    color: #085008;
+    background-image: linear-gradient(to right, #ffffff 19%, #b2dd68);
+}
+
+input[type="button"]:hover {
+    opacity: .9;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    color: #0000ff;
+}
+
+@media (max-width: 800px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    img {
+        height: 300px;
+        border-radius: 25px;
+    }
+
+    h2 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 375px) {
+    img {
+        height: 180px;
+        border-radius: 15px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+}
