@@ -94,7 +94,8 @@
 <br>
 [lan-house-js](cap02/ex2_6.html/js/)
 <br>
-[supermercado-js](cap02/ex2_7.html/js/)
+[supermercado-js](cap02/ex2_7.html/js/) <br>
+<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap02/ex2_7.html/assets/supermercado-js.png?raw=true">
 <h4>  2.11- Considerações!</h4>
 <p>Alguns tópicos que considero essenciais:</p>
 <p>Técnicas para integrar os programas JavaScript com uma página web!</p>
@@ -250,6 +251,10 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 [consultorio-odontologico](cap06/ex6_1/) <br>
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/ex6_1/assets/consultorio-odonto.png?raw=true"> 
 <h4>  6.4 - Localizar conteúdo</h4>
+<p>indexOf( ) → Busca no início do vetor.</p>
+<p>lastIndexOf( ) → Busca no final até seu início.</p>
+<p>Caso o conteúdo pesquisado não exista no vetor, o valor -1 é devolvido!</p>
+<p>includes( ) → Retorna verdadeiro ou falso.</p>
 <h4>  6.5 - Vetores de objejos!</h4>
 <h4>  6.6 - Desestruturação e operador Rest/Spread!</h4>
 <h4>  6.7 - Pesquisar e filtrar dados!</h4>
@@ -305,4 +310,5 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 11.3 - Jogo "Descubra a Palavra"</h4>
 <h4>  11.3.1 - Cadastro de palavras!</h4>
 <h4>  11.3.2 - Listagem de palavras!</h4>
+<h4>  11.3.3 - Programação do jogo!</h4>
 
