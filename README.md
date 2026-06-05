@@ -251,6 +251,8 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 [consultorio-odontologico](cap06/ex6_1/) <br>
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/ex6_1/assets/consultorio-odonto.png?raw=true"> 
 <h4>  6.4 - Localizar conteúdo</h4>
+
+[jogo-descubra-o-numero](cap06/ex6_2/ex6_2.js)
 <p>indexOf( ) → Busca no início do vetor.</p>
 <p>lastIndexOf( ) → Busca no final até seu início.</p>
 <p>Caso o conteúdo pesquisado não exista no vetor, o valor -1 é devolvido!</p>
