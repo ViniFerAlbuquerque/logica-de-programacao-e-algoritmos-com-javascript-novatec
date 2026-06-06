@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Jogo Descubra o Número!</title>
 </head>
+
 <body>
     <section><img src="./img/descubra-o-numero.jpg" alt="Imagem-dos-números!"></section>
     <section>
@@ -14,7 +16,7 @@
         <form>
             <h2>
                 <label for="Número" id="Numero">Número:</label>
-                <input type="number" min="1" max="100"  id="inNumero" required autofocus>
+                <input type="number" min="1" max="100" id="inNumero" required autofocus>
                 <div>
                     <input type="submit" value="Apostar" id="btSubmit">
                     <input type="button" value="Jogar Novamente" id="btNovo" class="oculta">
@@ -24,9 +26,12 @@
 
         <h3>Erros: <span id="outErros">0</span></h3>
         <h3>Chances: <span id="outChances">6</span></h3>
+        <h3>Vitórias: <span id="outVitorias">0</span></h3>
+        <h3>Derrotas: <span id="outDerrotas">0</span></h3>
         <h3 id="outDica" class="italico">Dica: É um número entre 1 e 100</h3>
 
     </section>
 </body>
 <script src="ex6_2.js"></script>
+
 </html>
