@@ -249,7 +249,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4>  6.3 - For...of e forEach()</h4>
 
 [consultorio-odontologico](cap06/ex6_1/) <br>
-<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/ex6_2/img/jogo-descubra-o-numero-score.png?raw=true"> 
+<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/ex6_1/assets/consultorio-odonto.png?raw=true"> 
 <h4>  6.4 - Localizar conteúdo</h4>
 <p>indexOf( ) → Busca no início do vetor.</p>
 <p>lastIndexOf( ) → Busca no final até seu início.</p>
