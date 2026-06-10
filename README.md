@@ -320,5 +320,6 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 12.1 - Express!</h4>
 <h4> 12.2 - Programa Reserva de Poltronas em Teatro!</h4>
 <h4> 12.3 - Rotas POST e Formato JSON</h4>
+<h4> 12.4 - Middlewares</h4>
 
 
