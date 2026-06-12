@@ -257,7 +257,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <p>includes( ) → Retorna verdadeiro ou falso.</p>
 
 [jogo-descubra-o-numero](cap06/ex6_2/ex6_2.js) 
-<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/ex6_2/img/jogo-descubra-o-numero.png?raw=true"> 
+<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/ex6_2/img/jogo-descubra-o-numero-score.png?raw=true"> 
 <h4>  6.5 - Vetores de objejos!</h4>
 <h4>  6.6 - Desestruturação e operador Rest/Spread!</h4>
 <h4>  6.7 - Pesquisar e filtrar dados!</h4>
@@ -318,5 +318,8 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h3>12 CAPÍTULO 12 ■ Criação de um App: Back-end com Express!</h3>
 <hr>
 <h4> 12.1 - Express!</h4>
+<h4> 12.2 - Programa Reserva de Poltronas em Teatro!</h4>
+<h4> 12.3 - Rotas POST e Formato JSON</h4>
+<h4> 12.4 - Middlewares</h4>
 
 
