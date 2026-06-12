@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to left, #d47d44 60%, #f3c497);
+    font-family: cursive;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    color: #FFFFFF;
+}
+
+h1 {
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px #1b1b1b;
+    letter-spacing: 11px;
+    font-size: 55px;
+}
+
+h1::first-letter {
+    color: #E62B;
+    font-size: 79px;
+}
