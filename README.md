@@ -263,6 +263,9 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 [vetores-de-objetos](cap06/vetores-de-objetos/script.js
 )
 <h4>  6.6 - Desestruturação e operador Rest/Spread!</h4>
+
+[desestruturacao-e-operador-rest-spread](cap06/rest-spred/script.js
+)
 <h4>  6.7 - Pesquisar e filtrar dados!</h4>
 <h4>  6.8 - Map, Filter e Reduce!</h4>
 <h4>  6.9 - Classificar os itens do vetor!</h4>
