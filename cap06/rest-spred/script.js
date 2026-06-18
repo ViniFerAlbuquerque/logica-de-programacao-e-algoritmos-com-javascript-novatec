@@ -13,6 +13,14 @@ console.log(atender)
 console.log(proximo)
 console.log(outros)
 console.log(`Atender → ${atender};
-    Próximo → ${proximo}; 
-    Outros → ${outros} 
---------------------------------`)
+Próximo → ${proximo}; 
+ No aguardo: → ${outros} 
+----------------------------------------------`)
+const carro = { modelo: "Corsa", preco: 59500 }
+const carro2 = { ...carro, ano: 2020 } 
+console.log(carro2)
+console.log(`-----------------------------------------------`)
+let patients = ["João", "Sofia"]
+patients = ["Ana", ...patients]
+patients = [...patients, "Maria"]
+console.log(patients)
