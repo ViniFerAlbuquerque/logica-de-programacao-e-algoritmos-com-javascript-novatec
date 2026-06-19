@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to left, #696969 60%, #555053);
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    color: #1a1818;
+}
+
+h1 {
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px #f5e8e8;
+    letter-spacing: 5px;
+    font-size: 55px;
+}
+
+h1::first-letter {
+    color: rgba(6, 46, 61, 0.733);
+    font-size: 79px;
+}
