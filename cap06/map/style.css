@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(#445966, #4488aa);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #f9f9f9;
+    font-size: 80px;
+}
+
+h1::first-letter {
+    color: #afafaf;
+    font-size:159px
+}
+
+span {
+    color: #b41c1c;
+    text-decoration: underline;
+}
