@@ -267,6 +267,8 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 [desestruturacao-e-operador-rest-spread](cap06/rest-spred/script.js
 )
 <h4>  6.7 - Pesquisar e filtrar dados!</h4>
+
+[pesquisar-e-filtrar-dados](cap06/pesquisar-filtrar/script.js)
 <h4>  6.8 - Map, Filter e Reduce!</h4>
 <h4>  6.9 - Classificar os itens do vetor!</h4>
 <h4> 6.10 - Manipulação de vetores com Node.js</h4>
