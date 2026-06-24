@@ -12,4 +12,8 @@ const amigos2 = amigos.filter(aux => aux.idade >= 21 || aux.nome.includes("B") )
 
 for (const amigo of amigos2) {
     console.log(`${amigo.nome} → idade: ${amigo.idade} anos!`)
+
+    if (amigos2.length == 0) {
+    console.log("Não há amigos com essas condições...")
+}
 }
