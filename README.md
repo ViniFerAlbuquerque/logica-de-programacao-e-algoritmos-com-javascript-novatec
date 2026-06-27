@@ -272,7 +272,8 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4>  6.8 - Map, Filter e Reduce!</h4>
 
 [map](cap06/map/script.js) <br>
-[filter](cap06/filter/script.js)
+[filter](cap06/filter/script.js) <br>
+[reduce](cap06/reduce/script.js)
 <h4>  6.9 - Classificar os itens do vetor!</h4>
 <h4> 6.10 - Manipulação de vetores com Node.js</h4>
 <h4> 6.11 - Exercícios Vetores!</h4>
