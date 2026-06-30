@@ -337,5 +337,6 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 12.6 - Criação de Rotas com o React Router!</h4>
 <h4> 12.7 - Seeds: "semeando' dados iniciais!</h4>
 <h4> 12.8 - Database Config e express.Router</h4>
+<h4> 12.9 - Async e await</h4>
 
 
