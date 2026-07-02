@@ -339,5 +339,6 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 12.8 - Database Config e express.Router</h4>
 <h4> 12.9 - Async e await</h4>
 <h4> 12.10- Status Code HTTP</h4>
+<h4> 12.11- Rotas para a realização do CRUD</h4>
 
 
