@@ -341,5 +341,6 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 12.10- Status Code HTTP</h4>
 <h4> 12.11- Rotas para a realização do CRUD</h4>
 <h4> 12.12- Filtros, totalizações e agrupamentos</h4>
+<h4> 12.13- CORS</h4>
 
 
