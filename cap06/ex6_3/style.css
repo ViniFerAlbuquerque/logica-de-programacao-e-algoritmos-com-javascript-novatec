@@ -13,14 +13,16 @@ body {
 }
 
 img {
-    right: 300px;
+    right: 350px;
     height: 400px;
+    margin: 5px;
 }
 
 h1 {
     color: #A70505;
     letter-spacing: 3px;
     text-shadow: 2px 6px 9px #1b1b1b;
+    font-size: 65px;
 }
 
 h1::first-letter {
@@ -36,7 +38,7 @@ input[type="text"] {
     border-radius: 10px;
     border: 1px solid;
     padding: 5px;
-    font-size: 36px;
+    font-size: 30px;
     width: 501px;
     cursor: pointer;
     color: #06028D;
@@ -47,7 +49,7 @@ input[type="number"] {
     border-radius: 10px;
     border: 1px solid;
     padding: 5px;
-    font-size: 36px;
+    font-size: 30px;
     width: 201px;
     cursor: pointer;
     color: #06028D;
@@ -59,11 +61,12 @@ input[type="submit"] {
     border: 1px solid;
     padding: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
     color: #171815;
     width: 185px;
     color: #06028D;
     background-image: linear-gradient(to right, #ffffff 19%, #A70505);
+    margin: 5px;
 }
 
 input[type="submit"]:hover {
@@ -83,6 +86,7 @@ input[type="button"] {
     width: 155px;
     color: #06028D;
     background-image: linear-gradient(to right, #ffffff 19%, #A70505);
+    margin: 4px;
 }
 
 input[type="button"]:hover {
@@ -103,7 +107,7 @@ input[type="button"]:hover {
         justify-content: center;
         flex-direction: column;
         height: 100vh;
-        right: 100vr;
+        width: 100vw;
     }
 
     section {
@@ -115,36 +119,80 @@ input[type="button"]:hover {
     }
 
     img {
-        height: 300px;
+        height: 320px;
         border-radius: 25px;
     }
 
-    h2 {
-        font-size: 25px;
+    h1 {
+        font-size: 30px;
     }
+
+    h1::first-letter {
+        color: #06028D;
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    input[type="text"] {
+        width: 390px;
+        font-size: 15px;
+    }
+
+    
+input[type="number"] {
+    padding: 5px;
+    font-size: 15px;
+    width: 181px;
+    cursor: pointer;
+}
 
     input[type="submit"] {
         width: 125px;
-
+        font-size: 15px;
+        padding: 1px;
     }
 
     input[type="button"] {
         width: 155px;
+        font-size: 16px;
+        padding: 2px;
     }
 }
 
 @media (max-width: 375px) {
     body {
         background-color: #06028D;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
     }
 
     img {
-        height: 180px;
+        height: 220px;
         border-radius: 15px;
     }
 
+        h1 {
+        font-size: 30px;
+    }
+
+    h1::first-letter {
+        color: #06028D;
+        font-size: 35px;
+    }
+
     h2 {
-        font-size: 45px;
+        font-size: 15px;
+    }
+
+    input[type="text"] {
+        width: 300px;
     }
 
     input[type="submit"] {
