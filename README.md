@@ -336,5 +336,15 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 12.5 - Use o Knex e escolha o banco de dados!</h4>
 <h4> 12.6 - Criação de Rotas com o React Router!</h4>
 <h4> 12.7 - Seeds: "semeando' dados iniciais!</h4>
+<h4> 12.8 - Database Config e express.Router</h4>
+<h4> 12.9 - Async e await</h4>
+<h4> 12.10- Status Code HTTP</h4>
+<h4> 12.11- Rotas para a realização do CRUD</h4>
+<h4> 12.12- Filtros, totalizações e agrupamentos</h4>
+<h4> 12.13- CORS</h4>
+<h4> 12.14- Considerações finais do capítulo!</h4>
+<h3>13 CAPÍTULO 13 ■ Criação de um App: Front-end com React!</h3>
+<h4> 13.1 - Variáveis de Estado: useState()</h4>
+
 
 
