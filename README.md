@@ -346,6 +346,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h3>13 CAPÍTULO 13 ■ Criação de um App: Front-end com React!</h3>
 <h4> 13.1 - Variáveis de Estado: useState()</h4>
 <h4> 13.2 - Organização em componentes!</h4>
+<h4> 13.3 - Criação de um novo projeto React!</h4>
 
 
 
