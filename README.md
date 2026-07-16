@@ -347,6 +347,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 13.1 - Variáveis de Estado: useState()</h4>
 <h4> 13.2 - Organização em componentes!</h4>
 <h4> 13.3 - Criação de um novo projeto React!</h4>
+<h4> 13.4 - Simplificando o gerenciamento do form com React Hook Form!</h4>
 
 
 
