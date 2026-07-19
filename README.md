@@ -350,6 +350,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 13.4 - Simplificando o gerenciamento do form com React Hook Form!</h4>
 <h4> 13.5 - Axios para comunicar com o Web Service!</h4>
 <h4> 13.6 - Criação de Rotas com o React Router</h4>
+<h4> 16.7 - useEffect()</h4>
 
 
 
