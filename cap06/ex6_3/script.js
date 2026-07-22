@@ -20,5 +20,5 @@ frm.btListar.addEventListener("click", () => {
     }
     const lista = carros.reduce((acumulador, carro) => 
     acumulador + carro.modelo + " - R$: " + carro.preco.toFixed(2) + "\n", "")
-    resp.innerText = `Lista dos Carros Cadastrados \n${"-", repeat(40)}\n${lista}`
+    resp.innerText = `Lista dos Carros Cadastrados \n${"-".repeat(40)}\n${lista}`
 })
