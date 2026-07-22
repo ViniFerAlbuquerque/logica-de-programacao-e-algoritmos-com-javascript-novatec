@@ -96,6 +96,13 @@ input[type="button"]:hover {
     color: #0000ff;
 }
 
+pre {
+    font-size: 16px;
+    margin: auto;
+}
+
+
+
 @media (max-width: 840px) {
     body {
         background-color: #06028D;
