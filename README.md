@@ -352,6 +352,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 13.6 - Criação de Rotas com o React Router</h4>
 <h4> 13.7 - useEffect()</h4>
 <h4> 13.8 - Filtrando os registros da linguagem!</h4>
+<h4> 13.9 - Exclusão, alteração e passagem de funções como props</h4>
 
 
 
