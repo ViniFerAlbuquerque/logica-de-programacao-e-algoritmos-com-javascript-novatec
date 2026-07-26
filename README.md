@@ -354,6 +354,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 13.8 - Filtrando os registros da linguagem!</h4>
 <h4> 13.9 - Exclusão, alteração e passagem de funções como props</h4>
 <h4> 13.10- Resumo com gráfico ou dashboard do sistema</h4>
+<h4> 13.11- Considerações finais!</h4>
 
 
 
