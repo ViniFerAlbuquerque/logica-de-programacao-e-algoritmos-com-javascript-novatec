@@ -38,7 +38,28 @@ if(carrosFilter.lenght == 0){
 }
 let lista = "" 
 for(const carro of carrosFilter){
-    lista += `${carro.modelo} - R$: ${carro.preço.toFixed(2)}\n`
+    lista += `${carro.modelo} - R$: ${carro.preco.toFixed(2)}\n`
 }
 resp.innerText = `Carros Até R$: ${maximo.toFixed(2)}\n${"-".repeat(40)}\n${lista}`
 })
+
+frm.btSimular.addEventListener("click", () => {
+        const desconto = Number(prompt("Qual o percentual de desconto: "))
+    if (desconto == 0 || isNaN(desconto)){
+        return 
+    }
+    const carrosDesc = carros.map(aux => ({
+        modelo: aux.modelo,
+        preco: aux.preco - (aux.preco * desconto / 100) 
+    }))
+    
+    let lista = "" 
+    for(const carro of carrosDesc){
+        lista += `${carro.modelo} - R$: ${carro.preco.toFixed(2)}\n` 
+    }
+    resp.innerText = `Carros com desconto: ${desconto}%\n${"-".repeat(40)}\n${lista}`
+})
+
+
+    
+
