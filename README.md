@@ -3,7 +3,7 @@
 [Livro](https://www.novatec.com.br/livros/logica-programacao-algoritmos-com-javascript-2ed/)
 
 
-<h3>1 CAPÍTULO 1 ■ Introdução</h3>
+<h3>CAPÍTULO 1 ■ Introdução</h3>
 <hr>
 <h4> 1.1 - Lógica de programação</h4>
 <p>1.1.1 Compreender o que foi pedido!</p>
