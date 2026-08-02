@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: radial-gradient(#e2a32d, #635412);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1{
+    color: aliceblue;
+    font: 4em sans-serif;
+    text-shadow: 4px 4px 8px #1b1b1b;
+}
+p{
+    font: 2em sans-serif;
+    color: rgb(234, 236, 206);
+}
