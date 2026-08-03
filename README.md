@@ -279,6 +279,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 6.9 - Classificar os itens do vetor!</h4>
 
 [sort-reverse](cap06/sort-reverse/script.js) <br>
+[numeros-sort](cap06/numeros-sort/script.js)
 <h4> 6.10 - Manipulação de vetores com Node.js</h4>
 <h4> 6.11 - Exercícios Vetores!</h4>
 <h4> 6.12 - Considerações finais do capítulo!</h4>
