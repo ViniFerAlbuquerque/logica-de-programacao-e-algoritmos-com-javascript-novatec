@@ -276,7 +276,8 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 [reduce](cap06/reduce/script.js) <br>
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/ex6_3/img/revenda-herbie01.png?raw=true">
 [revenda-herbie](cap06/ex6_3/script.js)
-<h4>  6.9 - Classificar os itens do vetor!</h4>
+<h4> 6.9 - Classificar os itens do vetor!</h4>
+
 [sort-reverse](cap06/sort-reverse/script.js) <br>
 <h4> 6.10 - Manipulação de vetores com Node.js</h4>
 <h4> 6.11 - Exercícios Vetores!</h4>
