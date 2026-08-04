@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../cap04/assets/livrojs.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Programa Brinquedoteca!</title>
+</head>
+
+<body>
+    <section>
+        <img src="assets/ex6_4.jpg" alt="Brinquedoteca" class="alta">
+    </section>
+    <section>
+        <h1>Programa Brinquedoteca:</h1> <hr>
+        <form>
+            <h2>
+                <label for="nomeCrian">Nome da Criança:</label> <br>
+                <input type="text" id="inNome" required autofocus>
+            </h2>
+            <h2>
+                <label for="idade">Idade:</label>
+                <input type="number" id="inIdade" min="0" required>
+            </h2>
+            <input type="submit" value="Adicionar">
+            <input type="button" value="Listar Todos" id="btListar">
+            <input type="button" value="Resumir por Idade" id="btResumir">
+        </form>
+        <pre></pre>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
