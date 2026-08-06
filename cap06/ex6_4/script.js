@@ -24,7 +24,7 @@ frm.btListar.addEventListener("click", () => {
         const { nome, idade } = crianca 
         lista += nome + " - " + idade + " anos\n"
     }
-    resp.innerText = Lista 
+    resp.innerText = lista 
 })
 
 frm.btResumir.addEventListener("click", () => {
@@ -55,7 +55,7 @@ frm.btResumir.addEventListener("click", () => {
     }
     // Adiciona a última criança
     resumo += aux + " ano(s): " + nomes.length + " criança(s) - "
-    resumo += ((nomes.length / copia.length / copia.length) * 100).toFixed(2) + "%\n" 
+    resumo += ((nomes.length / copia.length) * 100).toFixed(2) + "%\n" 
     resumo += "(" + nomes.join(", ") + ")\n\n"
     resp.innerText = resumo 
 })
