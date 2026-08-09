@@ -230,7 +230,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <p>Existem dois comandos especiais que podem ser utilizados nos laços de repetição: break e continue.</p>
 <p>Nos contadores, o incremento é uma constante e, nos acumuladores, uma variável.</p>
 <p>O debug permite identificar erros de sintaxe e de lógica em seu programa.</p>
-<h3>6 CAPÍTULO 6 ■ Vetores!</h3>
+<h3>CAPÍTULO 6 ■ Vetores!</h3>
 <p>Os vetores ou arrays são estruturas que permitem armazenar uma lista de dados na memória principal do computador.</p>
 <hr>
 <h4> 6.1 - Inclusão e exclusão de itens!</h4>
