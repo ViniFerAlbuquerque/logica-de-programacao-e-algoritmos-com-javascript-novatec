@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: repeating-linear-gradient(#551111, #AA2233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 60px;
+    color: #FFFFFF;
+}
+h1::first-letter {
+    color: #EAE8E1;
+    font-size: 68px;
+    font-family: cursive;
+}
+
+.brancoFloral {
+    color: #fffaf0;
+    font-size: 40px;
+}
+
+.brancoBaunilha {
+    color: #FDF5E6;
+    font-size: 25px;
+}
+
+span {
+    color: #1baabd;
+    font-size: 30px;
+    font-weight: bold;
+}
