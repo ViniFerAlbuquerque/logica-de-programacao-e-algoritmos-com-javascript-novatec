@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(#d1d1d1, #b1b1b1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1::first-letter {
+    color: #3f3f39;
+    font-size: 55px;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.pref {
+    color: #084608;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.norm {
+    color: #10103f;
+    font-size: 30px;
+    font-weight: bold;
+}
