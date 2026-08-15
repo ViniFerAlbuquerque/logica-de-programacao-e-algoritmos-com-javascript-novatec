@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(#008000, #808000);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 128, 0, 0.233) 98%
+        rgba(128, 128, 0, 0.925) 2%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+h1 {
+    font-size: 55px;
+    color: #CDCDCD;
+}
+h1::first-letter{
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-size: 119px;
+    color: #808080;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+h2 {
+    color: #B2B2B2;
+}
