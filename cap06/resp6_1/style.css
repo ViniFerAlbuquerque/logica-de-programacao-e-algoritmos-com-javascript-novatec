@@ -29,6 +29,7 @@ body {
     flex-direction: row;
     gap: 30px;
     padding: 20px;
+    overflow-y: auto;
 }
 
 .content-section {
@@ -145,6 +146,48 @@ input[type="submit"]:hover, input[type="button"]:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
+.club-list-container {
+    background-color: rgba(0, 39, 64, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.club-list-container h2 {
+    color: #f0f0f0;
+    font-size: 28px;
+    text-align: center;
+}
+
+.club-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.club-list li {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #e0e0e0;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.club-list ti:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 @media (max-width: 1107px) {
     body {
         flex-direction: column;
@@ -229,9 +272,7 @@ input[type="submit"]:hover, input[type="button"]:hover {
 
     .input-area label {
         text-align: center;
-        /* Centraliza a label quando empilhada */
         margin-bottom: 5px;
-        /* Espaço abaixo da label */
     }
 
     input[type="text"], input[type="submit"], input[type="button"] {
@@ -243,9 +284,7 @@ input[type="submit"]:hover, input[type="button"]:hover {
 
     .button-area {
         flex-direction: column;
-        /* Empilha os botões de ação */
         align-items: center;
-        /* Centraliza os botões empilhados */
     }
 }
 
