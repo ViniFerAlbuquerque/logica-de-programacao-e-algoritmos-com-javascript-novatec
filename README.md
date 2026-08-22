@@ -287,6 +287,12 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 
 [node-alunos](cap06/node-alunos/)
 <h4> 6.11 - Exercícios Vetores!</h4>
+
+<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/resp6_1/assets/jogos-eliminatorios.png?raw=true"> <br>
+
+[tabela-de-jogos](cap06/resp6_1/)
+
+
 <h4> 6.12 - Considerações finais do capítulo!</h4>
 <h3>CAPÍTULO 7 ■ Strings e datas!</h3>
 <hr>
