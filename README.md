@@ -286,7 +286,7 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 6.10 - Manipulação de vetores com Node.js</h4>
 
 [node-alunos](cap06/node-alunos/)
-<br.
+<br>
 [node-clientes](cap06/node-clientes/)
 <h4> 6.11 - Exercícios Vetores!</h4>
 
