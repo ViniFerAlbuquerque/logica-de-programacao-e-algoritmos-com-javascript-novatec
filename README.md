@@ -286,6 +286,10 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <h4> 6.10 - Manipulação de vetores com Node.js</h4>
 
 [node-alunos](cap06/node-alunos/)
+<br>
+[node-clientes](cap06/node-clientes/)
+<br>
+[node-saque](cap06/node-saque/)
 <h4> 6.11 - Exercícios Vetores!</h4>
 
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/resp6_1/assets/jogos-eliminatorios.png?raw=true"> <br>
