@@ -30,3 +30,95 @@ hr {
 section {
     margin: 5PX;
 }
+
+h1 {
+    font-size: 42px;
+    letter-spacing: 4px;
+}
+
+h1::first-letter {
+    font-size: 48px;
+    color: #504f4f;
+    text-shadow: 3px 3px 2px #000000;
+}
+
+label {
+    font-size: 34px;
+}
+
+label::first-letter {
+    font-size: 38px;
+    color: #504f4f;
+    text-shadow: 5px 7px 9px #000000;
+}
+
+input {
+    font-size: 28px;
+    color: #f0f0f0;
+    white-space: nowrap;
+    /* Impede que a label quebre a linha */
+}
+
+input[type="number"] {
+    border-radius: 10px;
+    border: 1px solid #1192b3;
+    padding: 8px 10px;
+    font-size: 20px;
+    width: 204px;
+    max-width: calc(100% - 100px);
+    cursor: number;
+    color: #1192b3;
+    background-image: linear-gradient(to right, #ffffff 19%, rgba(0, 39, 64, 0.589));
+    flex-grow: 1;
+    /* Permite que o input cresça para preencher o espaço disponível */
+    min-width: 180px;
+    /* Garante uma largura mínima em telas pequenas */
+}
+
+input[type="button"] {
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 180px;
+    max-width: 100%;
+    background-image: linear-gradient(to right, #ffffff 19%, rgba(0, 39, 64, 0.589));
+    transition: all 0.3s ease;
+    /* Transição mais suave e profissional */
+    flex-shrink: 0;
+    /* Impede que os botões encolham muito */
+}
+
+input[type="button"] {
+    color: #504f4f;
+    border-color: #504f4f;
+}
+
+input[type="button"]:hover {
+    opacity: .9;
+    transform: scale(1.03);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px;
+    color: #504f4f;
+    background-image: linear-gradient(to right, #ffffff 19%, rgba(0, 39, 64, 0.589));
+}
+
+button:hover {
+    opacity: .9;
+    transform: scale(1.03);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
