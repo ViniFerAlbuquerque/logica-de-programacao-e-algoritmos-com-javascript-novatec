@@ -17,15 +17,18 @@
         <h1>Programa Números em Ordem:</h1>
         <hr>
         <label >Número:</label>
-        <input type="number" placeholder="Coloque o número:" required>
-        <input type="button" value="Submit">
+        <input type="number" id="inputNumero" placeholder="Coloque o número:" required>
+        <input type="button" value="Adicionar" id="btnAdicionar">
 
-        <div><button>Verificar Ordem:</button></div>
+        <div><button id="btnVerificarOrdem">Verificar Ordem:</button></div>
 
         <pre>
-            <h2></h2>
-            <h3>[ATENÇÂO...] → Números não estão em ordem crescente!</h3>
+            <h2 id="listaNumeros"></h2>
+            <h3 id="statusOrdem"></h3>
+            <h4>[ATENÇÂO...] → Números não estão em ordem crescente!</h4>
         </pre>
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
