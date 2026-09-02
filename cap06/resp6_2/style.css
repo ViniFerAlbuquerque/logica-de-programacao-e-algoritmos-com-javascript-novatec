@@ -9,15 +9,26 @@ body {
     font-family: fantasy;
     letter-spacing: 2px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    align-items: flex-start;
+    min-height: 100dvh;
+    padding: 20px;
+    gap: 20px;
 }
 
 img {
-    width: 260px;
-    height: 279px;
-    border-radius: 10PX;
+    width: 289px;
+    height: 339px;
+    display: block;
+    border-radius: 10px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 hr {
@@ -26,10 +37,15 @@ hr {
     color: #fff;
     background-color: #fff;
     height: 4px;
+    margin: 15px 0;
 }
 
 section {
-    margin: 5PX;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 400px;
+    max-width: 1200px;
 }
 
 h1 {
@@ -43,14 +59,32 @@ h1::first-letter {
     text-shadow: 3px 3px 2px #000000;
 }
 
+h2, h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+    white-space: pre-wrap;
+}
+
 label {
     font-size: 34px;
+    white-space: nowrap;
+    margin-right: 10px;
+    color: #504f4f;
 }
 
 label::first-letter {
     font-size: 38px;
     color: #504f4f;
-    text-shadow: 5px 7px 9px #000000;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.input-add-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 20px;
 }
 
 input {
@@ -70,10 +104,9 @@ input[type="number"] {
     cursor: number;
     color: #1192b3;
     background-image: linear-gradient(to right, #ffffff 19%, rgba(0, 39, 64, 0.589));
-    flex-grow: 1;
-    /* Permite que o input cresça para preencher o espaço disponível */
-    min-width: 180px;
-    /* Garante uma largura mínima em telas pequenas */
+    flex: 1;
+    min-width: 150px;
+    max-width: 500px;
 }
 
 input[type="button"] {
@@ -86,9 +119,7 @@ input[type="button"] {
     max-width: 100%;
     background-image: linear-gradient(to right, #ffffff 19%, rgba(0, 39, 64, 0.589));
     transition: all 0.3s ease;
-    /* Transição mais suave e profissional */
     flex-shrink: 0;
-    /* Impede que os botões encolham muito */
 }
 
 input[type="button"] {
@@ -100,6 +131,15 @@ input[type="button"]:hover {
     opacity: .9;
     transform: scale(1.03);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -116,10 +156,83 @@ button {
     padding: 8px;
     color: #504f4f;
     background-image: linear-gradient(to right, #ffffff 19%, rgba(0, 39, 64, 0.589));
+    flex: 1;
+    min-width: 150px;
+    max-width: 400px;
 }
 
 button:hover {
     opacity: .9;
     transform: scale(1.03);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+pre {
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    section {
+        min-width: auto;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h1::first-letter {
+        font-size: 17px;
+    }
+
+    h1::first-letter {
+    font-size: 39px;
+    color: #504f4f;
+    text-shadow: 3px 3px 2px #000000;
+}
+
+    label {
+        font-size: 18px;
+        margin-bottom: 5px;
+        width: 100%; 
+        text-align: center;
+    }
+
+    .input-add-group {
+        flex-direction: column; 
+        align-items: stretch; 
+    }
+
+    input[type="number"],
+    input[type="button"] {
+        width: 100%; 
+        max-width: none;
+        min-width: unset; 
+    }
+
+    .action-buttons {
+        flex-direction: column; 
+        align-items: stretch;
+    }
+
+    button {
+        width: 100%;
+        max-width: none;
+        min-width: unset;
+    }
+
+    h2, h3 {
+        font-size: 17px;
+    }
 }

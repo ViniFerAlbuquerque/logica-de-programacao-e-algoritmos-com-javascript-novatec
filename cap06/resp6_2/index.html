@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,35 @@
     <link rel="stylesheet" href="style.css">
     <title>Programa que adiciona números a um vetor!</title>
 </head>
+
 <body>
     <!-- b)Elaborar um programa que adicione números a um vetor. O programa deve impedir a inclusão de números repetidos. Exibir a lista de números a cada inclusão. Ao clicar no botão Verificar Ordem!, o programa deve analisar o conteúdo do vetor e informar se os números estão ou não em ordem crescente.-->
-    <section>
+    <section class="image-section">
         <img src="./../resp6_1/assets/exerc.jpg" alt="Figura dos Exercícios!">
     </section>
 
-    <section>
+    <section class="form-section">
         <h1>Programa Números em Ordem:</h1>
         <hr>
-        <label >Número:</label>
-        <input type="number" id="inputNumero" placeholder="Coloque o número:" required>
-        <input type="button" value="Adicionar" id="btnAdicionar">
+        <div class="input-add-group">
+            <label>Número:</label>
+            <input type="number" id="inputNumero" placeholder="Coloque o número:" required>
+            <input type="button" value="Adicionar" id="btnAdicionar">
+        </div>
 
-        <div><button id="btnVerificarOrdem">Verificar Ordem:</button></div>
+        <div class="action-buttons">
+            <button id="btnVerificarOrdem">Verificar Ordem:</button>
+            <button id="btnLimparLista">Limpar Lista</button>
+        </div>
 
         <pre>
             <h2 id="listaNumeros"></h2>
             <h3 id="statusOrdem"></h3>
-            <h4>[ATENÇÂO...] → Números não estão em ordem crescente!</h4>
+            <!-- <h4>[ATENÇÃO...] → Números não estão em ordem crescente!</h4> -->
         </pre>
     </section>
 
     <script src="script.js"></script>
 </body>
+
 </html>
