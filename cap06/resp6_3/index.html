@@ -12,31 +12,28 @@
     <!-- C) Elaborar um programa que leia nome e número de acertos de cadidatos inscritos em um concurso. Listar os dados a cada inclusão. Ao clicar no botão: Aprovados 2ª Fase, ler o número de acertos para aprovação dos candidatos para a 2ª fase do concurso. O programa deve, então, exibir os candidatos aprovados, ou seja, apenas os que obtiveram nota maior ou igual à nota informada. Exibir os candidatos aprovados em ordem decrescente de número de acertos. Caso nenhum candidato tenha sido aprovado, exibir mensagem.
      Ao clicar no botão "Aprovados 2ª Etapa", ler nº de acertos para aprovação atrvés de um prompt na tela!!
      Listar candidatos aprovados em ordem decrescente de nº de acertos.-->
-    <section class="image-section">
-        <img src="assets/exerc.jpg" alt="Imagem exercícios!">
-    </section>
-
-    <section class="form-section">
-        <h1>Programa Concurso:</h1>
-
-        <form>
-            <label>Candidato:</label>
-            <input type="text" placeholder="Insira o Nome do candidato..." id="name">
-            <label>Nº Acertos:</label>
-            <input type="number" placeholder="Número de acertos..." id="answers">
-            <input type="button" value="Adicionar" class="btnAdd">
-        </form>
-
-        <div class="action-buttons">
-            <button id="btnListarTodos">Listar Todos:</button>
-            <button id="btnAprovadosSegEtapa">Aprovados 2ª Etapa:</button>
-        </div>
-
-        <pre>
-            <h2></h2>
-        </pre>
-
-    </section>
+    <div class="main-container">
+        <section class="image-section">
+            <img src="assets/exerc.jpg" alt="Imagem exercícios!">
+        </section>
+        <section class="form-section">
+            <h1>Programa Concurso:</h1>
+            <form>
+                <label for="name">Candidato:</label>
+                <input type="text" placeholder="Insira o Nome do candidato..." id="name">
+                <label for="answers">Nº Acertos:</label>
+                <input type="number" placeholder="Número de acertos..." id="answers">
+                <input type="button" value="Adicionar" class="btnAdd">
+            </form>
+            <div class="action-buttons">
+                <button id="btnListarTodos">Listar Todos:</button>
+                <button id="btnAprovadosSegEtapa">Aprovados 2ª Etapa:</button>
+            </div>
+            <pre>
+                <h2>Resultado dos candidatos...</h2>
+            </pre>
+        </section>
+    </div>
 </body>
 
 </html>
