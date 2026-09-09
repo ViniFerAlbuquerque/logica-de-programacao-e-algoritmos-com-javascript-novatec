@@ -3,6 +3,7 @@ const inputAnswers = document.getElementById('answers')
 const btnAdd = document.querySelector('.btnAdd')
 const btnListarTodos = document.getElementById('btnListarTodos')
 const btnAprovadosSegEtapa = document.getElementById('btnAprovadosSegEtapa')
+const btnRemoverCandidato = document.getElementById('btnRemoverCandidato')
 const preResultado = document.querySelector('pre')
 
 const candidates = []
@@ -21,6 +22,13 @@ const addCandidate = () => {
         alert('Por favor, insira um número de acertos válido (maior ou igual a zero).')
         inputAnswers.focus()
         return
+    }
+
+        const existingCandidate = candidates.find(c => c.name.toLowerCase() === name.toLowerCase());
+    if (existingCandidate) {
+        alert(`O candidato "${name}" já está cadastrado. Por favor, use um nome único.`);
+        inputName.focus();
+        return;
     }
 
     const newCandidate = { name, answers }
@@ -77,16 +85,46 @@ const showApprovedCandidates = () => {
         return
     }
 
-    const approvedCandidates = candidates.filter(candidate => candidate.answers >= minScore)
 
+
+    const approvedCandidates = candidates.filter(candidate => candidate.answers >= minScore)
     approvedCandidates.sort((a, b) => b.answers - a.answers)
 
-    displayCandidates(`Candidatos Aprovados para a 2ª Etapa (Nota de Corte: ${minScore})`, approvedCandidates)
+    displayCandidates(`Candidatos Aprovados para a 2ª Etapa (Nota de Corte: ${minScore})`, approvedCandidates);
+}
+
+const removeCandidate = () => {
+    if (candidates.length === 0) {
+        alert('Não há candidatos cadastrados para remover.');
+        return;
+    }
+
+    const nameToRemove = prompt('Informe o NOME COMPLETO do candidato a ser removido:');
+
+    if (nameToRemove === null || nameToRemove.trim() === '') {
+        alert('Operação cancelada ou nome do candidato não informado.');
+        return;
+    }
+
+    // Convertemos para minúsculas para fazer uma busca case-insensitive (ignorar maiúsculas/minúsculas)
+    const index = candidates.findIndex(candidate => candidate.name.toLowerCase() === nameToRemove.trim().toLowerCase());
+
+    if (index !== -1) { // Se o candidato foi encontrado (findIndex retorna -1 se não encontrar)
+        // splice(índice, quantidade_a_remover)
+        const removed = candidates.splice(index, 1);
+        alert(`Candidato "${removed[0].name}" removido com sucesso!`);
+    } else {
+        alert(`Candidato "${nameToRemove}" não encontrado na lista.`);
+    }
+
+    // Atualiza a lista exibida após a tentativa de remoção
+    displayCandidates('Lista de Todos os Candidatos', candidates);
 };
 
 btnAdd.addEventListener('click', addCandidate)
 btnListarTodos.addEventListener('click', listAllCandidates)
 btnAprovadosSegEtapa.addEventListener('click', showApprovedCandidates)
+btnRemoverCandidato.addEventListener('click', removeCandidate);
 
 inputAnswers.addEventListener('keypress', (event) => {
     if (event.key === 'Enter') {
