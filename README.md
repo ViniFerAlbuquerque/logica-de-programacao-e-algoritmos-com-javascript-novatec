@@ -317,7 +317,9 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <br>
 
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/resp6_3/assets/concurso-mobile.png?raw=true">
+<br>
 
+[programa-concurso](cap06/resp6_3/)
 <br>
 Manipulação do DOM (para ler inputs e exibir resultados).
 
