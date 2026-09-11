@@ -389,6 +389,12 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 
 
 <h4> 6.12 - Considerações finais do capítulo!</h4>
+<p>-Inserir e remover elementos no início e no final do vetor!</p>
+<p>-Exibir o conteúdo do vetor!</p>
+<p>-Localizar um item no vetor!</p>
+<p>-Manipular um vetor de objetos, com diferentes atributos!</p>
+<p>-Filtrar os dados da lista!</p>
+<p>-Classificar os elementos do vetor!</p>
 <h3>CAPÍTULO 7 ■ Strings e datas!</h3>
 <hr>
 <h4> 7.1 - Percorrer os caracteres de uma string!</h4>
