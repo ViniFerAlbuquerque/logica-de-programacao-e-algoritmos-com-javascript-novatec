@@ -397,6 +397,10 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 <p>-Classificar os elementos do vetor!</p>
 <h3>CAPÍTULO 7 ■ Strings e datas!</h3>
 <hr>
+<p>-Cadeias de caracteres (strings) e datas.</p>
+<p>Métodos para obter cada uma das letras que compõem uma palavra.</p>
+<p>Converter uma palavra para letras maiúsculas ou minúsculas, extrair partes de uma palavra.</p>
+<p>Criar objetos do tipo Date e realizar cálculos sobre as datas, como adicionar ou subtrair dias, meses ou anos a uma data.</p>
 <h4> 7.1 - Percorrer os caracteres de uma string!</h4>
 <h4> 7.2 - Converter para letras maiúsculas ou minúsculas!</h4>
 <h4> 7.3 - Cópia de caracteres e remoção de espaços da string!</h4>
