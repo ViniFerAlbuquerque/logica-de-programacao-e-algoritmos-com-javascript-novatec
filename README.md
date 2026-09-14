@@ -94,8 +94,15 @@
 <br>
 [lan-house-js](cap02/ex2_6.html/js/)
 <br>
-[supermercado-js](cap02/ex2_7.html/js/) <br>
+
+[supermercado-js](cap02/ex2_7.html/js/)
+
+<br>
+
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap02/ex2_7.html/assets/supermercado-js.png?raw=true">
+
+<br>
+
 <h4> 2.11- Considerações!</h4>
 <p>Alguns tópicos que considero essenciais:</p>
 <p>Técnicas para integrar os programas JavaScript com uma página web!</p>
@@ -303,10 +310,99 @@ C:\livrojs\cap05\nodejs\ex5_9.js> node .\script.js
 <br>
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/resp6_2/assets/numeros-em-ordem.png?raw=true">
 
+<hr>
+
+<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/resp6_3/assets/programa-concurso.png?raw=true">
+
+<br>
+
+<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap06/resp6_3/assets/concurso-mobile.png?raw=true">
+<br>
+
+[programa-concurso](cap06/resp6_3/)
+<br>
+Manipulação do DOM (para ler inputs e exibir resultados).
+
+Estruturas de dados (para armazenar os candidatos).
+
+Eventos (para responder aos cliques dos botões).
+
+Lógica condicional e de loops (para filtrar e ordenar os candidatos).
+
+Funções de array (como filter e sort).
+Array de Objetos (candidates): Esta é a estrutura de dados central. Cada candidato é um objeto com propriedades name e answers.
+
+Por que objetos? Permitem agrupar dados relacionados sob uma única entidade, tornando o código mais organizado e legível.
+Por que um array? Para armazenar uma coleção desses objetos de forma ordenada e permitir fácil iteração e manipulação.
+addEventListener('click', ...): É a forma moderna e recomendada de anexar manipuladores de eventos. O primeiro argumento é o tipo de evento (aqui, 'click'), e o segundo é a função que será executada quando o evento ocorrer.
+
+Por que não onclick no HTML? Misturar JavaScript no HTML (<button onclick="...">) é considerado uma má prática. addEventListener separa o comportamento da estrutura, tornando o código mais modular e fácil de manter.
+trim() e Number():
+
+inputName.value.trim(): Garante que espaços em branco no início ou fim do nome digitado sejam removidos, evitando nomes vazios ou com apenas espaços.
+Number(inputAnswers.value): Converte a string obtida do input para um tipo numérico. Isso é crucial para fazer comparações matemáticas.
+isNaN() e Validação: isNaN(value) retorna true se value não for um número. É uma validação essencial para garantir que o usuário digitou dados esperados. Sempre valide a entrada do usuário!
+
+Template Literals (`): Observe o uso de crases (`) para construir strings. Isso permite incorporar variáveis e expressões diretamente na string usando ${} e também facilita a criação de strings multilinha.
+
+Vantagem: Mais legível e poderoso do que concatenar strings com +.
+Array.prototype.filter():
+
+A função showApprovedCandidates usa candidates.filter(candidate => candidate.answers >= minScore).
+filter() cria um novo array contendo apenas os elementos do array original que passam em um teste (a função de callback que você fornece). Ele não modifica o array original.
+A arrow function candidate => candidate.answers >= minScore é o teste: para cada candidate, se candidate.answers for maior ou igual a minScore, ele é incluído no novo array approvedCandidates.
+Array.prototype.sort():
+
+approvedCandidates.sort((a, b) => b.answers - a.answers): Ordena o array approvedCandidates.
+sort() modifica o array original (ou o array que você está chamando).
+A função de comparação (a, b) => b.answers - a.answers é a chave aqui:
+Se o resultado for positivo, b vem antes de a. (Ex: 90 - 80 = 10. 90 vem antes de 80).
+Se o resultado for negativo, a vem antes de b. (Ex: 80 - 90 = -10. 80 vem antes de 90).
+Se o resultado for zero, a ordem relativa permanece a mesma.
+Isso garante a ordem decrescente de acertos.
+forEach(): Usado dentro de displayCandidates para iterar sobre cada candidato no array e formatar sua exibição.
+
+padEnd(): É um método de string que preenche a string atual com uma determinada string (por padrão, um espaço) até que a string resultante atinja o comprimento fornecido. É ótimo para alinhar texto em colunas.
+Explicação da Nova Funcionalidade (removeCandidate):
+btnRemoverCandidato: Primeiro, obtemos a referência do novo botão usando document.getElementById('btnRemoverCandidato').
+
+removeCandidate() Função:
+
+Verificação Inicial: if (candidates.length === 0): Garante que não tentaremos remover de uma lista vazia, evitando prompts desnecessários.
+prompt('Informe o NOME COMPLETO do candidato a ser removido:'): Abre uma caixa de diálogo para o usuário digitar o nome do candidato.
+null e trim(): O prompt retorna null se o usuário clicar em "Cancelar". trim() remove espaços extras. É importante verificar ambos para lidar com entradas inválidas ou cancelamentos.
+candidates.findIndex(candidate => candidate.name.toLowerCase() === nameToRemove.trim().toLowerCase()): Esta é a parte crucial.
+findIndex(): É um método de array que retorna o índice do primeiro elemento no array que satisfaz a função de teste fornecida. Se nenhum elemento satisfizer a função, ele retorna -1.
+candidate => candidate.name.toLowerCase() === nameToRemove.trim().toLowerCase(): Esta é a arrow function de teste. Ela pega cada candidate do array e compara seu name (convertido para minúsculas) com o nameToRemove (também convertido para minúsculas e sem espaços extras). Isso torna a busca case-insensitive, o que é uma boa prática para a experiência do usuário (ex: "joao" ou "Joao" ou "JOAO" funcionariam).
+if (index !== -1): Se findIndex encontrou um candidato, index será um número diferente de -1.
+candidates.splice(index, 1): Este método é usado para modificar o conteúdo de um array removendo ou substituindo elementos existentes.
+O primeiro argumento (index) é o índice onde a remoção deve começar.
+O segundo argumento (1) é o número de elementos a serem removidos a partir desse índice.
+splice() retorna um array contendo os elementos removidos. Por isso, usamos removed[0].name para pegar o nome do candidato que foi efetivamente removido para a mensagem de sucesso.
+else: Se index for -1, significa que o candidato não foi encontrado.
+displayCandidates('Lista de Todos os Candidatos', candidates): Após qualquer tentativa de remoção (sucesso ou falha), a lista de candidatos é atualizada na tela para refletir o estado atual do array.
+Dica Extra: Validação de Nome Duplicado (Adicionada ao addCandidate)
+Percebi que seria útil evitar adicionar candidatos com o mesmo nome. Adicionei uma pequena validação na função addCandidate para verificar isso:
+Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nome (também de forma case-insensitive). Se encontrar, ele alerta o usuário e impede a adição.
+<br>
+
+
 
 <h4> 6.12 - Considerações finais do capítulo!</h4>
+<p>-Inserir e remover elementos no início e no final do vetor!</p>
+<p>-Exibir o conteúdo do vetor!</p>
+<p>-Localizar um item no vetor!</p>
+<p>-Manipular um vetor de objetos, com diferentes atributos!</p>
+<p>-Filtrar os dados da lista!</p>
+<p>-Classificar os elementos do vetor!</p>
 <h3>CAPÍTULO 7 ■ Strings e datas!</h3>
+<p>-Cadeias de caracteres (strings) e datas.</p>
+<p>-Métodos para obter cada uma das letras que compõem uma palavra.</p>
+<p>-Converter uma palavra para letras maiúsculas ou minúsculas, extrair partes de uma palavra.</p>
+<p>-Criar objetos do tipo Date e realizar cálculos sobre as datas, como adicionar ou subtrair dias, meses ou anos a uma data.</p>
+<p>-Processo de validação de senhas.</p>
 <hr>
+
 <h4> 7.1 - Percorrer os caracteres de uma string!</h4>
 <h4> 7.2 - Converter para letras maiúsculas ou minúsculas!</h4>
 <h4> 7.3 - Cópia de caracteres e remoção de espaços da string!</h4>
