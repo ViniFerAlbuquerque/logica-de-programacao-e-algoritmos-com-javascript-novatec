@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f3f1f1;
+}
+
+img {
+    float: left;
+    height: 300px;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+
+.entre-letras {
+    letter-spacing: 0.5em;
+}
+
+.alinha-direita {
+    text-align: right;
+}
