@@ -404,6 +404,8 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 <hr>
 
 <h4> 7.1 - Percorrer os caracteres de uma string!</h4>
+
+[percorrendo-os-caracteres-de-uma-string](cap07/ex7_1/)
 <h4> 7.2 - Converter para letras maiúsculas ou minúsculas!</h4>
 <h4> 7.3 - Cópia de caracteres e remoção de espaços da string!</h4>
 <h4> 7.4 - Localizar um ou mais caracteres de uma string!</h4>
