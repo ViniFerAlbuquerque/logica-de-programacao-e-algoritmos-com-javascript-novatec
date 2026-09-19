@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../../cap04/assets/livrojs.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Programa "Qual é a fruta?"</title>
 </head>
@@ -18,12 +18,16 @@
             <h1>Programa Qual é a Fruta?</h1>
             <form>
                 <div class="form-group">
-                    <label for="">Fruta:</label>
-                    <input type="text" id="inFruta" autofocus required placeholder="Digite sua escolha...">
+                    <label for="inLetra">Adivinhe a letra:</label>
+                    <input type="text" id="inLetra" autofocus required placeholder="Digite uma letra...">
                 </div>
                 <input type="submit" value="Jogar">
             </form>
-            <h3>Descubra: <span class="entre-letras"></span></h3>
+            <h3>Descubra: <span class="entre-letras" id="palavraMascaradaDisplay"></span></h3>
+            <p>Tentativas Restantes: <span id="tentativasRestantesDisplay"></span></p>
+            <p>Letras já tentadas: <span id="letrasTentadasDisplay">Nenhuma!</span></p>
+            <p id="mensagem" class="game-message"></p>
+            <button type="button" id="btnReiniciar" class="btn-reiniciar">Reiniciar Jogo!</button>
         </section>
     </div>
 
