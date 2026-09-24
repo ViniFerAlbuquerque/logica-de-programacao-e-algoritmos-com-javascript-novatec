@@ -407,9 +407,10 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 
 [percorrendo-os-caracteres-de-uma-string](cap07/ex7_1/)
 <br>
-<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap07/ex7_2/img/img-descubra-fruta.png?raw=true">
 <br>
-[programa-qual-é-a-fruta]()
+<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap07/ex7_2/img/img-readme.png?raw=true">
+<br>
+[programa-qual-é-a-fruta](cap07/ex7_2/)
 <h4> 7.2 - Converter para letras maiúsculas ou minúsculas!</h4>
 <h4> 7.3 - Cópia de caracteres e remoção de espaços da string!</h4>
 <h4> 7.4 - Localizar um ou mais caracteres de uma string!</h4>
