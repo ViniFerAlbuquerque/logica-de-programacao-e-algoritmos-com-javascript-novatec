@@ -1,0 +1,6 @@
+while (true) {
+    const continua = prompt("Continuar (S/N)?")
+    if (continua.toUpperCase() == "N") {
+        break
+    }
+}
