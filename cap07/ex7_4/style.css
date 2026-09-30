@@ -118,6 +118,12 @@ footer {
     gap: 20px;
 }
 
+h3 {
+    margin-top: 40px;
+    font-size: 1.4em;
+    color: #6c757d; 
+}
+
 footer p {
     margin: 0;
     font-size: 0.95em;
