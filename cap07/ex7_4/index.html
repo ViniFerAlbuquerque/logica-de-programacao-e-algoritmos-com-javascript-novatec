@@ -19,10 +19,13 @@
             <form>
                 <label for="inNome">Nome do Participante:</label>
                 <input type="text" id="inNome" placeholder="Digite o nome do participante...">
-                <input type="button" value="Gerar crachá">
+                <div class="button-group">
+                    <input type="button" value="Gerar crachá" id="btGerar">
+                    <input type="button" value="Limpar" id="btLimpar">
+                </div>
             </form>
 
-            <h3></h3>
+            <h3 id="outCracha"></h3>
 
         </section>
     </div>
@@ -33,6 +36,8 @@
             <p>Todos os direitos reservados!</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
