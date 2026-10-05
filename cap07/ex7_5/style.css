@@ -1,3 +1,23 @@
+main { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --primary-color: #007bff; /* Azul vibrante para botões e destaques */
+    --secondary-color: #6c757d; /* Cinza para textos secundários */
+    --text-color: #333; /* Cor principal para o texto */
+    --background-light: #f8f9fa; /* Fundo claro para seções */
+    --background-dark: #D7D7D7; /* Fundo geral da página */
+    --white: #ffffff; /* Branco puro */
+    --border-color: #ced4da; /* Cor para bordas de inputs */
+    --shadow-color: rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +25,184 @@
 }
 
 body {
-    background: #D7D7D7;
+    font-family: 'Poppins', sans-serif; 
+    background: var(--background-dark); 
+    color: var(--text-color); 
+    line-height: 1.6; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    padding: 20px; 
+}
+
+main {
+    background: var(--white); 
+    border-radius: 15px; 
+    box-shadow: 0 10px 20px var(--shadow-color); 
+    display: flex; 
+    max-width: 900px; 
+    width: 100%; 
+    overflow: hidden; 
+    flex-direction: row; 
+}
+
+main section {
+    flex: 1; 
+    padding: 30px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+main section:first-child {
+    background-color: var(--background-light); 
+    align-items: center; 
+}
+
+main section img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    display: block; 
+    object-fit: cover; 
+    max-height: 300px; 
+}
+
+main section:last-child {
+    gap: 20px; 
+    align-items: center; 
+}
+
+h1 {
+    font-size: 2em; 
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-weight: 700; 
+    text-align: center; 
+    width: 100%; 
+}
+
+h2 {
+    font-size: 1.1em;
+    color: var(--text-color);
+    margin-bottom: 15px;
+    font-weight: 600;
+    display: flex; 
+    flex-direction: column; 
+    gap: 8px; 
+    width: 100%; 
+}
+
+h3 {
+    font-size: 1.2em;
+    color: var(--secondary-color);
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 400;
+    width: 100%; 
+}
+
+form {
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+label {
+    display: block; 
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: left; 
+    width: 100%; 
+}
+
+input[type="text"] {
+    width: 100%; 
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+input[type="text"]:focus {
+    outline: none; 
+    border-color: var(--primary-color); 
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); 
+}
+
+input[type="submit"] {
+    width: 100%; 
+    padding: 15px 25px;
+    background-color: var(--primary-color); 
+    color: var(--white); 
+    border: none; 
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
+}
+
+@media (max-width: 768px) { 
+    body {
+        padding: 15px; 
+    }
+
+    main {
+        flex-direction: column; 
+        max-width: 500px; 
+        height: auto; 
+    }
+
+    main section {
+        padding: 25px; 
+        text-align: center; 
+        align-items: center; 
+    }
+   
+    main section:first-child {
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    main section img {
+        max-height: 200px; 
+        width: auto; 
+        object-fit: contain; 
+        margin-bottom: 15px; 
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        padding: 12px 20px;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) { /* Para telas ainda menores (smartphones) */
+    main section {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
 }
