@@ -84,7 +84,7 @@ h1 {
     width: 100%; 
 }
 
-h2 {
+p {
     font-size: 1.1em;
     color: var(--text-color);
     margin-bottom: 15px;
