@@ -428,6 +428,8 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap07/ex7_4/img/Captura%20de%20Tela.png?raw=true">
 
 <h4> 7.5 - Dividir a string em elementos de vetor!</h4>
+
+[split](cap07/split/)
 <h4> 7.6 - Validar senhas com o método match()</h4>
 <h4> 7.7 - Substituição de caracteres!</h4>
 <h4> 7.8 - Manipulação de datas!</h4>
