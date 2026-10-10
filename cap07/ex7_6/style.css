@@ -3,7 +3,8 @@
 :root {
     --primary-color: #11887f;
     --secondary-color: #5e9619;
-    --background-bottom: #d5d5d5
+    --background-bottom: #d5d5d5;
+    --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -14,7 +15,24 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
     background: var(--background-bottom);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column; 
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    max-width: 900px; 
+    width: 100%; 
+    overflow: hidden; 
+    flex-direction: row; 
+    border-radius: 10px;
+    box-shadow: 0 10px 20px var(--shadow-color); 
 }
 
 main section img {
@@ -24,4 +42,13 @@ main section img {
     display: block; 
     object-fit: cover; 
     max-height: 300px; 
+}
+
+main section {
+    flex: 1; 
+    padding: 30px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
 }
