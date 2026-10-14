@@ -10,6 +10,7 @@
     --background-light: #fcfcfc;
     --text-color: #333;
     --white: #ffffff;
+    --border-color: #ddd;
 }
 
 * {
@@ -167,6 +168,46 @@ footer p {
     color: var(--background-bottom);
 }
 
+.password-input-wrapper {
+    position: relative; /* Define este div como o contexto de posicionamento */
+    width: 100%; /* Ocupa a largura total disponível */
+    margin-bottom: 15px; /* Adiciona um espaço abaixo */
+}
+
+.password-input-wrapper label {
+    margin-bottom: 8px; /* Espaço entre a label e o input */
+}
+
+/* Ajusta o padding-right do input para dar espaço ao botão */
+input[type="password"],
+input[type="text"] { /* Aplica a ambos os tipos de input para manter a consistência */
+    width: 100%;
+    padding: 12px 60px 12px 15px; /* Aumenta o padding à direita para o botão */
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.toggle-password-button {
+    position: absolute;
+    right: 15px;
+    top: 50%; /* Alinha o topo do botão ao meio do wrapper */
+    transform: translateY(calc(-50% + 12px)); /* Ajusta para centralizar verticalmente, considerando a altura da label */
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 0.9em;
+    color: var(--primary-color);
+    padding: 5px; 
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.toggle-password-button:hover {
+    color: #479bf5; 
+}
+
 @media (max-width: 768px) { 
     body {
         padding: 15px; 
@@ -208,6 +249,12 @@ footer p {
     input[type="submit"] {
         padding: 12px 20px;
         font-size: 1em;
+    }
+
+    .toggle-password-button {
+        right: 15px;
+        top: 50%;
+        transform: translateY(calc(-50% + 12px)); /* Ajuste para centralizar */
     }
 }
 
