@@ -27,56 +27,56 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    flex-direction: column; 
+    flex-direction: column;
     padding: 20px;
 }
 
 main {
     display: flex;
-    max-width: 1000px; 
-    width: 100%; 
-    overflow: hidden; 
-    flex-direction: row; 
+    max-width: 1000px;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
     border-radius: 10px;
-    box-shadow: 0 10px 20px var(--shadow-color); 
+    box-shadow: 0 10px 20px var(--shadow-color);
 }
 
 main section img {
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 10px; 
-    display: block; 
-    object-fit: cover; 
-    max-height: 300px; 
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
+    max-height: 300px;
 }
 
 main section {
-    flex: 1; 
-    padding: 20px; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: flex-start; 
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     background-color: var(--background-aplicativo);
 }
 
 main section:first-child {
-    background-color: var(--background-light); 
-    align-items: center; 
+    background-color: var(--background-light);
+    align-items: center;
 }
 
 main section:last-child {
-    gap: 20px; 
-    align-items: center; 
+    gap: 20px;
+    align-items: center;
 }
 
 h1 {
-    font-size: 2em; 
+    font-size: 2em;
     color: var(--primary-color);
     margin-bottom: 5px;
-    font-weight: 700; 
-    text-align: center; 
-    width: 100%; 
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
 }
 
 h3 {
@@ -85,7 +85,7 @@ h3 {
     margin-top: 25px;
     text-align: center;
     font-weight: 400;
-    width: 100%; 
+    width: 100%;
 }
 
 p {
@@ -93,69 +93,69 @@ p {
     color: var(--text-color);
     margin-bottom: 15px;
     font-weight: 600;
-    display: flex; 
-    flex-direction: column; 
-    gap: 8px; 
-    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
 }
 
 form {
-    width: 50%; 
+    width: 50%;
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    gap: 10px; 
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 label {
-    display: block; 
+    display: block;
     font-weight: 400;
     color: var(--text-color);
-    text-align: left; 
-    width: 100%; 
+    text-align: left;
+    width: 100%;
 }
 
 input[type="password"] {
-    width: 100%; 
+    width: 100%;
     padding: 12px 15px;
     border: 1px solid var(--border-color);
     border-radius: 8px;
     font-size: 1em;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 input[type="password"]:focus {
-    outline: none; 
-    border-color: var(--primary-color); 
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); 
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
 }
 
 
 input[type="submit"] {
-    width: 100%; 
+    width: 100%;
     padding: 15px 25px;
-    background-color: var(--primary-color); 
-    color: var(--white); 
-    border: none; 
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
     border-radius: 8px;
     font-size: 1.1em;
     font-weight: 600;
-    cursor: pointer; 
+    cursor: pointer;
     color: var(--background-aplicativo);
-    transition: background-color 0.3s ease, transform 0.2s ease; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 input[type="submit"]:hover {
-    background-color: #479bf5; 
-    transform: translateY(-2px); 
+    background-color: #479bf5;
+    transform: translateY(-2px);
 }
 
 footer {
-    background-color: var(--primary-color); 
-    color: #adb5bd; 
+    background-color: var(--primary-color);
+    color: #adb5bd;
     padding: 5px 0;
     text-align: center;
-    margin-top: auto; 
+    margin-top: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -169,20 +169,26 @@ footer p {
 }
 
 .password-input-wrapper {
-    position: relative; /* Define este div como o contexto de posicionamento */
-    width: 100%; /* Ocupa a largura total disponível */
-    margin-bottom: 15px; /* Adiciona um espaço abaixo */
+    position: relative;
+    /* Define este div como o contexto de posicionamento */
+    width: 100%;
+    /* Ocupa a largura total disponível */
+    margin-bottom: 15px;
+    /* Adiciona um espaço abaixo */
 }
 
 .password-input-wrapper label {
-    margin-bottom: 8px; /* Espaço entre a label e o input */
+    margin-bottom: 8px;
+    /* Espaço entre a label e o input */
 }
 
 /* Ajusta o padding-right do input para dar espaço ao botão */
 input[type="password"],
-input[type="text"] { /* Aplica a ambos os tipos de input para manter a consistência */
+input[type="text"] {
+    /* Aplica a ambos os tipos de input para manter a consistência */
     width: 100%;
-    padding: 12px 60px 12px 15px; /* Aumenta o padding à direita para o botão */
+    padding: 12px 60px 12px 15px;
+    /* Aumenta o padding à direita para o botão */
     border: 1px solid var(--border-color);
     border-radius: 8px;
     font-size: 1em;
@@ -192,48 +198,57 @@ input[type="text"] { /* Aplica a ambos os tipos de input para manter a consistê
 .toggle-password-button {
     position: absolute;
     right: 15px;
-    top: 50%; /* Alinha o topo do botão ao meio do wrapper */
-    transform: translateY(calc(-50% + 12px)); /* Ajusta para centralizar verticalmente, considerando a altura da label */
-    background: none; 
-    border: none; 
-    cursor: pointer; 
+    top: 50%;
+    /* Alinha o topo do botão ao meio do wrapper */
+    transform: translateY(calc(-50% + 12px));
+    /* Ajusta para centralizar verticalmente, considerando a altura da label */
+    background: none;
+    border: none;
+    cursor: pointer;
     font-size: 0.9em;
     color: var(--primary-color);
-    padding: 5px; 
+    padding: 5px;
     font-weight: 500;
     transition: color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .toggle-password-button:hover {
-    color: #479bf5; 
+    color: #479bf5;
 }
 
-@media (max-width: 768px) { 
+.toggle-password-button i {
+    font-size: 1.3em; /* Define o tamanho do ícone */
+}
+
+@media (max-width: 768px) {
     body {
-        padding: 15px; 
+        padding: 15px;
     }
 
     main {
-        flex-direction: column; 
-        max-width: 500px; 
-        height: auto; 
+        flex-direction: column;
+        max-width: 500px;
+        height: auto;
     }
 
     main section {
-        padding: 25px; 
-        text-align: center; 
-        align-items: center; 
+        padding: 25px;
+        text-align: center;
+        align-items: center;
     }
-   
+
     main section:first-child {
         border-bottom: 1px solid var(--border-color);
     }
 
     main section img {
-        max-height: 200px; 
-        width: auto; 
-        object-fit: contain; 
-        margin-bottom: 15px; 
+        max-height: 200px;
+        width: auto;
+        object-fit: contain;
+        margin-bottom: 15px;
     }
 
     h1 {
@@ -254,11 +269,14 @@ input[type="text"] { /* Aplica a ambos os tipos de input para manter a consistê
     .toggle-password-button {
         right: 15px;
         top: 50%;
-        transform: translateY(calc(-50% + 12px)); /* Ajuste para centralizar */
+        transform: translateY(calc(-50% + 12px));
+        /* Ajuste para centralizar */
     }
 }
 
-@media (max-width: 480px) { /* Para telas ainda menores (smartphones) */
+@media (max-width: 480px) {
+
+    /* Para telas ainda menores (smartphones) */
     main section {
         padding: 20px;
     }

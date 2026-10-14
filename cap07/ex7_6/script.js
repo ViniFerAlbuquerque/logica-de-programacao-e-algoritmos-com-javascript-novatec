@@ -2,6 +2,7 @@ const frm = document.querySelector("form");
 const inputSenha = document.getElementById("inSenha");
 const mensagemValidacao = document.getElementById("mensagemValidacao");
 const togglePasswordVisibility = document.getElementById("togglePasswordVisibility");
+const passwordIcon = togglePasswordVisibility.querySelector("i");
 
 const validarSenha = (senha) => {
     let erros = [];
@@ -40,11 +41,15 @@ const validarSenha = (senha) => {
 togglePasswordVisibility.addEventListener("click", () => {
     if (inputSenha.type === "password") {
             inputSenha.type = "text";
-        togglePasswordVisibility.textContent = "Esconder"; // Altera o texto do botão
+        // togglePasswordVisibility.textContent = "Esconder"; // Altera o texto do botão
+        passwordIcon.classList.remove("fa-eye-slash");
+        passwordIcon.classList.add("fa-eye");
     } else {
         // Se for text, muda para password (esconde a senha)
         inputSenha.type = "password";
-        togglePasswordVisibility.textContent = "Mostrar"; // Altera o texto do botão
+        // togglePasswordVisibility.textContent = "Mostrar"; // Altera o texto do botão
+        passwordIcon.classList.remove("fa-eye");
+        passwordIcon.classList.add("fa-eye-slash");
     }
 });
 
