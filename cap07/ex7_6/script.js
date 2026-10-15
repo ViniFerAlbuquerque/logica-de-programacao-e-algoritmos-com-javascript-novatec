@@ -38,6 +38,26 @@ const validarSenha = (senha) => {
     return { valido: true, mensagens: ["Senha válida!"] };
 };
 
+const atualizarMensagemValidacao = () => {
+    const senhaDigitada = inputSenha.value;
+
+    // Se o campo estiver vazio, limpa a mensagem
+    if (senhaDigitada.length === 0) {
+        mensagemValidacao.textContent = "";
+        return; // Sai da função
+    }
+
+    const resultadoValidacao = validarSenha(senhaDigitada);
+
+    if (resultadoValidacao.valido) {
+        mensagemValidacao.textContent = resultadoValidacao.mensagens[0];
+        mensagemValidacao.style.color = "var(--secondary-color)"; // Cor verde para sucesso
+    } else {
+        mensagemValidacao.innerHTML = resultadoValidacao.mensagens.map(msg => `• ${msg}`).join('<br>');
+        mensagemValidacao.style.color = "red"; // Cor vermelha para erro
+    }
+};
+
 togglePasswordVisibility.addEventListener("click", () => {
     if (inputSenha.type === "password") {
             inputSenha.type = "text";
@@ -67,4 +87,12 @@ frm.addEventListener("submit", (event) => {
         mensagemValidacao.innerHTML = resultadoValidacao.mensagens.map(msg => `• ${msg}`).join('<br>');
         mensagemValidacao.style.color = "red";
     }
+});
+
+inputSenha.addEventListener("input", atualizarMensagemValidacao);
+
+// Adiciona um listener para o evento de 'submit' do formulário
+frm.addEventListener("submit", (event) => {
+    event.preventDefault(); // Previne o comportamento padrão de recarregar a página
+    atualizarMensagemValidacao(); // Realiza a validação final e exibe a mensagem
 });
