@@ -430,6 +430,8 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 <h4> 7.5 - Dividir a string em elementos de vetor!</h4>
 
 [split](cap07/split/)
+
+[programa-email-institucional](cap07/ex7_5/)
 <h4> 7.6 - Validar senhas com o método match()</h4>
 <h4> 7.7 - Substituição de caracteres!</h4>
 <h4> 7.8 - Manipulação de datas!</h4>
