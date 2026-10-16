@@ -11,6 +11,29 @@
     --text-color: #333;
     --white: #ffffff;
     --border-color: #ddd;
+
+    --strength-weak: #e74c3c;    /* Vermelho */
+    --strength-medium: #f39c12;  /* Laranja */
+    --strength-strong: #27ae60;  /* Verde */
+    --strength-none: #ccc;       /* Cinza claro para o fundo da barra */
+}
+
+.password-strength-container {
+    width: 100%; /* Ocupa a largura total */
+    height: 8px; /* Altura da barra */
+    background-color: var(--strength-none); /* Cor de fundo quando a senha está vazia ou fraca */
+    border-radius: 4px;
+    margin-top: -10px; /* Ajusta a margem para ficar mais próxima do input */
+    margin-bottom: 20px; /* Espaço abaixo da barra */
+    overflow: hidden; /* Garante que a barra interna não transborde */
+}
+
+.password-strength-bar {
+    height: 100%;
+    width: 0%; /* Começa com 0% de largura */
+    background-color: transparent; /* Cor inicial transparente */
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Transição suave */
 }
 
 * {
