@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&display=swap");
+
+:root {
+    --primary-color: #11887f;
+    --secondary-color: #5e9619;
+    --third-color:#dacbcb;
+    --fourth:#9b9696;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bitcount Ink', sans-serif;
+    background: var(--third-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    font-size: 40px;
+}
+
+h1 {
+    color: var(--fourth);
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 75px;
+        font-size: 20px;
+    }
+
+main {
+        flex-direction: column;
+        max-width: 500px;
+        height: auto;
+    }
+}
