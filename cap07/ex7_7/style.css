@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+
+:root {
+    --primary-color: #ffff00;
+    --secondary-color: #4A2285;
+    --third-color: #797979;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Share Tech', sans-serif;
+    background: var(--secondary-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+h1 {
+    font-size: 56px;
+    color: var(--third-color);
+}
+
+span {
+    border-bottom: 6px solid #ffff00;
+}
