@@ -7,9 +7,22 @@
     --fourth-color: #1D3403;
     --fifth-color: #e3dfca;
     --sixth-color: #99a3ca;
-    --seventh-color: ##888357;
-    --eight-color: ##343430;
-    --ninth-color: ##4f4740;
+    --seventh-color: #888357;
+    --eight-color: #343430;
+    --ninth-color: #4f4740;
+    --tenth-color: #E9E9E9;
+
+    --background-body: var(var(--tenth-color));
+    --background-main: var(--tenth-color);
+    --background-panel: var(--fifth-color);
+    --text-color-primary: var(--fourth-color);
+    --text-color-secondary: var(--eight-color);
+    --border-color: var(--sixth-color);
+    --button-primary-bg: var(--second-color);
+    --button-primary-text: var(--fourth-color);
+    --button-secondary-bg: var(--third-color);
+    --button-secondary-text: var(--fifth-color);
+    --highlight-color: var(--first-color);
 }
 
 * {
@@ -20,55 +33,277 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background: var(--eight-color);
+    background: var(--background-body);
+    color: var(--text-color-secondary);
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: space-between;
+    min-height: 100vh;
     flex-direction: column;
 }
 
-main {
-    background: var(--ninth-color);
+.app-container {
+    background: var(--background-main);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-section {
-    background: var(--fifth-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-height: 100vh;
-    flex-direction: column;
-}
-
-main section img {
-    max-width: 100%;
-    height: auto;
+    flex-direction: row; /* PADRÃO: Imagem e formulário lado a lado em telas grandes */
+    gap: 30px; /* Aumentado o espaço entre as seções */
+    padding: 25px; /* Aumentado o padding geral */
     border-radius: 10px;
-    display: block;
-    object-fit: cover;
-    max-height: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    max-width: 1200px;
+    width: 95%;
+    margin: 20px auto;
+    flex-grow: 1; /* Permite que o main cresça para ocupar o espaço disponível */
 }
 
-footer {
-    background: var(--sixth-color);
-    color: var(--fourth-color);
-    padding: 5px 0;
+.content-panel {
+    background: var(--background-panel);
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinha o conteúdo ao topo do painel */
+    flex: 1; 
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+#image-section {
+    justify-content: center;
+    flex-basis: 40%; /* Dá mais espaço para a imagem em telas grandes */
+    min-width: 300px;  
+}
+
+#image-section img {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px;
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    max-height: 400px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#form-section {
+    flex-basis: 60%; /* Dá mais espaço para o formulário em telas grandes */
+}
+
+#form-section h1 {
+    color: var(--text-color-primary);
+    margin-bottom: 15px;
+    font-size: 2.2em;
     text-align: center;
-    margin-top: auto;
+}
+
+#form-section hr {
+    width: 80%;
+    border: none;
+    border-top: 2px solid var(--highlight-color);
+    margin-bottom: 30px;
+}
+
+/* Estilo para o formulário */
+.account-form {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 20px; /* Espaço entre os grupos de formulário */
+}
+
+.account-form fieldset {
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.05); /* Leve fundo para o fieldset */
+}
+
+.account-form legend {
+    color: var(--text-color-primary);
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 1.1em;
+}
+
+/* Grupo de formulário: label e input */
+.form-group {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas pequenas */
+    align-items: center;
+    gap: 10px; /* Espaço entre label/input/botões */
+    justify-content: space-between; /* Distribui itens no espaço */
+}
+
+.form-group label {
+    font-weight: bold;
+    color: var(--text-color-primary);
+    flex-basis: 150px; /* Largura mínima para o label */
+    text-align: right; /* Alinha o texto do label à direita */
+    flex-shrink: 0; /* Impede que o label encolha */
+}
+
+.input-actions {
+    display: flex;
+    flex-grow: 1; /* Permite que o grupo input/botão ocupe o espaço restante */
+    gap: 10px; /* Espaço entre o input e o botão */
+    flex-wrap: wrap; /* Permite que input e botão quebrem linha se necessário */
+    justify-content: flex-end; /* Alinha input e botão à direita dentro do seu container */
+    align-items: center; /* Alinha verticalmente input e botão */
+    min-width: 200px; /* Garante um tamanho mínimo para o grupo */
+}
+
+.form-group input[type="date"],
+.form-group input[type="number"] {
+    flex-grow: 1; /* Permite que o input preencha o espaço restante */
+    padding: 10px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: var(--fifth-color);
+    color: var(--text-color-secondary);
+    max-width: 200px; /* Largura máxima para inputs */
+}
+
+/* Inputs readonly com um estilo diferente para indicar que não são editáveis */
+.form-group input[readonly] {
+    background-color: var(--sixth-color);
+    color: var(--eight-color);
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+
+/* Alinhamento de texto em inputs */
+.align-right {
+    text-align: right;
+}
+
+/* Estilo para os botões */
+.form-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+    white-space: nowrap; /* Impede que o texto do botão quebre */
+    flex-shrink: 0; /* Impede que o botão encolha */
+}
+
+.form-group button[type="submit"] {
+    background-color: var(--button-primary-bg);
+    color: var(--button-primary-text);
+    margin-left: auto; /* Empurra o botão de submit para a direita */
+}
+
+.form-group button[type="reset"] {
+    background-color: var(--button-secondary-bg);
+    color: var(--button-secondary-text);
+}
+
+.form-group button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: #92e038; /* Um pouco mais claro */
+}
+
+.form-group button[type="reset"]:hover {
+    background-color: #f7193f; /* Um pouco mais claro */
+}
+
+/* Footer */
+footer {
+    background: var(--sixth-color);
+    color: var(--text-color-primary);
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; /* Garante um espaço acima do footer */
 }
 
 footer p {
     margin: 0;
     font-size: 0.95em;
-    color: var(--background-bottom);
+}
+
+@media (max-width: 992px) {
+    .app-container {
+        flex-direction: column; /* Empilha as seções verticalmente */
+        width: 90%;
+        gap: 30px; /* Aumenta o espaço entre as seções empilhadas */
+    }
+
+    #image-section,
+    #form-section {
+        flex-basis: auto; /* Remove a base de largura fixa */
+        width: 100%; /* Ocupa a largura total */
+        min-width: auto;
+    }
+
+    #image-section img {
+        max-height: 300px; /* Reduz a altura máxima da imagem em telas menores */
+    }
+
+    #form-section h1 {
+        font-size: 1.8em;
+    }
+
+    .form-group label {
+        text-align: left; /* Alinha labels à esquerda em telas menores */
+        flex-basis: 100%; /* Label ocupa a linha inteira */
+    }
+
+    .form-group input[type="date"],
+    .form-group input[type="number"] {
+        max-width: 100%; /* Inputs ocupam a largura total */
+    }
+
+    .form-group button {
+        margin-left: 0; /* Remove o margin-left auto para botões */
+        width: 100%; /* Botões ocupam a largura total */
+    }
+
+    .form-group {
+        justify-content: flex-start; /* Alinha itens ao início */
+    }
+}
+
+@media (max-width: 600px) {
+    .app-container {
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .content-panel {
+        padding: 20px;
+    }
+
+    #form-section h1 {
+        font-size: 1.5em;
+    }
+
+    #form-section hr {
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        flex-direction: column; /* Empilha label, input e botão */
+        align-items: flex-start; /* Alinha tudo à esquerda */
+        gap: 8px;
+    }
+    
+    .form-group label,
+    .form-group input,
+    .form-group button {
+        width: 100%; /* Garante que todos os elementos ocupem a largura total */
+        text-align: left; /* Alinha inputs e labels à esquerda */
+    }
+
+    .align-right { /* Sobrescreve para alinhar à esquerda em telas pequenas */
+        text-align: left;
+    }
 }

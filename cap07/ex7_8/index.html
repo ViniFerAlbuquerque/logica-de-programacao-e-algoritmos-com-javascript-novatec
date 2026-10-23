@@ -26,19 +26,26 @@
                     </div>
                     <div class="form-group">
                         <label for="inValor">Valor da Conta R$:</label>
-                        <input type="number" id="inValor" min="0" step="0.01" class="align-right" required readonly placeholder="0.00" >
+                        <input type="number" id="inValor" min="0" step="0.01" class="align-right" required readonly
+                            placeholder="0.00">
                         <!-- <input type="submit" value="Calcular Multa e juros $"> -->
                         <button type="submit">Calcular Multa e Juros $</button>
                     </div>
                     <div class="form-group">
                         <label for="outValMulta">Valor da Multa R$:</label>
-                        <input type="number" name="outMulta" id="outMulta" class="align-right" readonly placeholder="0.00">
+                        <input type="number" name="outMulta" id="outMulta" class="align-right" readonly
+                            placeholder="0.00">
                     </div>
                     <div class="form-group">
                         <label for="outJuros">Valor dos Juros R$:</label>
                         <input type="number" id="outJuros" class="align-right" readonly placeholder="0.00">
-                        <!-- <input type="reset" value="Nova Conta"> -->
-                        <button type="reset">Nova Conta</button>
+                    </div>
+                    <div class="form-group">
+                        <label for="outTotal">Total a Pagar R$:</label>
+                        <div class="input-actions"> <!-- Novo wrapper para input e botão -->
+                            <input type="number" id="outTotal" class="align-right" readonly placeholder="0.00">
+                            <button type="reset">Nova Conta</button>
+                        </div>
                     </div>
                 </fieldset>
             </form>
