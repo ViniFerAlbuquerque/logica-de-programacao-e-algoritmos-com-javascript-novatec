@@ -433,6 +433,8 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 
 [programa-email-institucional](cap07/ex7_5/)
 <h4> 7.6 - Validar senhas com o método match()</h4>
+
+[programa-valida-senha](cap07/ex7_6/)
 <h4> 7.7 - Substituição de caracteres!</h4>
 <h4> 7.8 - Manipulação de datas!</h4>
 <h4> 7.9 - Strings e datas com Node.js</h4>
