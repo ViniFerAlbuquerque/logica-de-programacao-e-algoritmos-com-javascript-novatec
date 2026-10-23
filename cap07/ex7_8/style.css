@@ -26,6 +26,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    flex-direction: column;
 }
 
 main {
@@ -43,4 +44,31 @@ section {
     justify-content: center;
     max-height: 100vh;
     flex-direction: column;
+}
+
+main section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+footer {
+    background: var(--sixth-color);
+    color: var(--fourth-color);
+    padding: 5px 0;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.95em;
+    color: var(--background-bottom);
 }
