@@ -153,7 +153,8 @@ body {
 }
 
 .form-group input[type="date"],
-.form-group input[type="number"] {
+.form-group input[type="number"],
+.form-group textarea {
     flex-grow: 1; /* Permite que o input preencha o espaço restante */
     padding: 10px 12px;
     border: 1px solid var(--border-color);
@@ -162,6 +163,15 @@ body {
     background-color: var(--fifth-color);
     color: var(--text-color-secondary);
     max-width: 200px; /* Largura máxima para inputs */
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: vertical; /* Permite redimensionar apenas verticalmente */
+    max-width: calc(100% - 165px); /* Ocupa o restante da largura após o label + gap */
+    /* calc(100% - (largura do label + gap)) */
+    /* 100% - (150px + 15px) = 100% - 165px */
+    min-width: 150px; /* Garante que não fique minúsculo em telas médias */
 }
 
 /* Inputs readonly com um estilo diferente para indicar que não são editáveis */
@@ -267,6 +277,16 @@ footer p {
         width: 100%; /* Botões ocupam a largura total */
     }
 
+    .form-group textarea {
+        max-width: 100%;
+        width: 100%;
+        text-align: left;
+    }
+
+    .align-right {
+        text-align: left;
+    }
+
     .form-group {
         justify-content: flex-start; /* Alinha itens ao início */
     }
@@ -279,7 +299,7 @@ footer p {
     }
 
     .content-panel {
-        padding: 20px;
+        padding: 15px;
     }
 
     #form-section h1 {
