@@ -431,6 +431,9 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 
 [split](cap07/split/)
 
+<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap07/ex7_5/img/programa-email-institucional.png?raw=true">
+<br>
+
 [programa-email-institucional](cap07/ex7_5/)
 <h4> 7.6 - Validar senhas com o método match()</h4>
 
