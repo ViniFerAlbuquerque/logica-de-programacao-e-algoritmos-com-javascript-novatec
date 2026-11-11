@@ -439,6 +439,8 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 
 [programa-valida-senha](cap07/ex7_6/)
 <h4> 7.7 - Substituição de caracteres!</h4>
+
+[substituicao-caracteres](cap07/ex7_7/)
 <h4> 7.8 - Manipulação de datas!</h4>
 <h4> 7.9 - Strings e datas com Node.js</h4>
 <h4> 7.10- Exercícios Strings e datas!</h4>
