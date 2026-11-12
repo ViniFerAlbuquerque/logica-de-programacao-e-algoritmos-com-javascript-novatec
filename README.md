@@ -442,6 +442,8 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 
 [substituicao-caracteres](cap07/ex7_7/)
 <h4> 7.8 - Manipulação de datas!</h4>
+
+[data-de-amanha](cap07/data-de-amanha/)
 <h4> 7.9 - Strings e datas com Node.js</h4>
 <h4> 7.10- Exercícios Strings e datas!</h4>
 <h4> 7.11- Considerações finais de Strings e datas</h4>
