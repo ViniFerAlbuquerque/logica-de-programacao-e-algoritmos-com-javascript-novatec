@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap");
+
+:root {
+    --background-body: #EEFF99;
+    --h1-font: #4b4e4c;
+    --bottom-span: #448899;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Coda, sans-serif;
+    background: var(--background-body);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+h1::first-letter {
+    color: var(--h1-font);
+    font-size: 75px;
+    font-family: cursive;
+}
+
+span {
+    border-bottom: 5px solid var(--bottom-span);
+}
+
+#linguage {
+    color: var(--bottom-span);
+    border-bottom: none;
+    font-size: 55px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 75px;
+        font-size: 20px;
+    }
+
+    section {
+        flex-direction: column;
+        max-width: 500px;
+        height: auto;
+    }
+}
