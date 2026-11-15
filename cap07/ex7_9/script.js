@@ -1,23 +1,51 @@
-const prompt = require("prompt-sync")()
-const formula = prompt("Fórmula:")
+function validarParenteses(formula) {
+    let saldo = 0;
 
-let abre = 0
-let fecha = 0
+    for (let i = 0; i < formula.length; i++) {
+        const caractere = formula[i];
 
-for (const símbolo of formula) {
-    if (simbolo == "(") {
-        abre++
-    } else if (simbolo == ")") {
-        fecha++
+        if (caractere === '(') {
+            saldo++;
+        } else if (caractere === ')') {
+            saldo--;
+        }
+
+        // Regra 1: Não pode fechar sem antes ter aberto
+        if (saldo < 0) {
+            return {
+                valido: false,
+                motivo: `Erro na posição ${i + 1}: Encontrou ')' sem um '(' correspondente aberto antes.`
+            };
+        }
     }
-    //se, em algum momento, o número de fecha for maior que abre...
-    if (fecha > abre) {
-        break //...sai da repetição
+
+    // Regra 2: Saldo final deve ser zero
+    if (saldo === 0) {
+        return { valido: true, motivo: "Parênteses balanceados perfeitamente!" };
+    } else {
+        return {
+            valido: false,
+            motivo: `Fórmula incompleta: Faltou fechar ${saldo} parêntese(s).`
+        };
     }
 }
 
-if (abre == fecha) {
-    console.log("OK! Fórmula correta (em relação aos parênteses)")
+// 1. Capturamos o argumento passado no terminal
+const formulaInformada = process.argv[2];
+
+// 2. Validação defensiva: e se o usuário esquecer de digitar a fórmula?
+if (!formulaInformada) {
+    console.log("⚠️  Atenção: Você precisa passar uma fórmula!");
+    console.log("👉 Exemplo de uso: node validador.js \"((2+5)*4)/3\"");
+    process.exit(1); // Encerra o programa indicando que houve um erro de uso
+}
+
+// 3. Execução da análise
+console.log(`\n🔍 Analisando a fórmula: ${formulaInformada}`);
+const resultado = validarParenteses(formulaInformada);
+
+if (resultado.valido) {
+    console.log(`✅ VÁLIDA: ${resultado.motivo}\n`);
 } else {
-    console.log("ERRO... Fórmula incorreta")
+    console.log(`❌ INVÁLIDA: ${resultado.motivo}\n`);
 }
