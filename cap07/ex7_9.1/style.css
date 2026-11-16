@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Exile&display=swap");
+
+:root {
+    --background-first: #8a1b1b;
+    --color-h1: #85f885;
+    --span-h1: #27d627;
+    --footer-background: #333;
+    --footer-font: #ECECEC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background-first);
+
+    font-family: Exile, sans-serif;
+
+    min-height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    flex: 1; /* Ocupa todo o espaço vertical disponível acima do footer */
+    display: flex;
+    align-items: center;     /* Centraliza verticalmente */
+    justify-content: center;  /* Centraliza horizontalmente */
+    padding: 20px;           /* Respiro para não encostar na borda em telas pequenas */
+}
+
+h1 {
+    color: var(--color-h1);
+    font-size: clamp(2rem, 5vw, 4rem);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+span {
+    border-bottom: 1px solid var(--span-h1);
+}
+
+footer {
+    width: 100%;
+    background-color: var(--footer-background);
+    color: var(--footer-font);
+    padding: 15px 20px;
+    margin-top: auto;
+    gap: 10rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* Se não couber na largura do celular, os itens quebram de linha sem estragar a tela */
+    gap: 1.5rem;
+}
