@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --background-body: #00AA5F;
+    --color-font: #382807;
+    --footer-background: #B9B9B9;
+    --footer-font: #03220f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background-body);
+    font-family: "Redaction 50", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--color-font);
+}
+
+span {
+    border-bottom: 5px solid var(--footer-background);
+}
+
+footer {
+    width: 100%;
+    background-color: var(--footer-background);
+    color: var(--footer-font);
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-top: auto;
+    gap: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* Se não couber na largura do celular, os itens quebram de linha sem estragar a tela */
+    gap: 1.5rem;
+}
