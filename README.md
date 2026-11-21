@@ -426,7 +426,9 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 <br>
 
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap07/ex7_4/img/Captura%20de%20Tela.png?raw=true">
+<br>
 
+[programa-nome-no-cracha](cap07/ex7_4)
 <h4> 7.5 - Dividir a string em elementos de vetor!</h4>
 
 [split](cap07/split/)
@@ -448,8 +450,8 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 <br>
 
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap07/ex7_8/img/caixa-da-loja.png?raw=true">
-
 <br>
+
 [programa-caixa-da-loja](cap07/ex7_8)
 
 <h4> 7.9 - Strings e datas com Node.js</h4>
