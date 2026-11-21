@@ -444,7 +444,9 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 <h4> 7.8 - Manipulação de datas!</h4>
 
 [data-de-amanha](cap07/data-de-amanha/)
+
 <br>
+
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap07/ex7_8/img/caixa-da-loja.png?raw=true">
 [programa-caixa-da-loja](cap07/ex7_8)
 
