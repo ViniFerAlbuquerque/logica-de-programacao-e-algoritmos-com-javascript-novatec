@@ -457,6 +457,9 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 <h4> 7.9 - Strings e datas com Node.js</h4>
 
 [programa-para-analisar-os-parenteses-de-uma-formula-matematica](cap07/ex7_9/)
+<br>
+[programa-para-analisar-os-parenteses-de-uma-formula-matematica-server](cap07/ex7_9.1/)
+
 <h4> 7.10- Exercícios Strings e datas!</h4>
 <h4> 7.11- Considerações finais de Strings e datas</h4>
 <h3>8 CAPÍTULO 8 ■ Funções e eventos!</h3>
