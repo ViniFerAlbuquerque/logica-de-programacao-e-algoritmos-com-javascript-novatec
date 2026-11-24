@@ -459,6 +459,8 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 [programa-para-analisar-os-parenteses-de-uma-formula-matematica](cap07/ex7_9/)
 <br>
 [programa-para-analisar-os-parenteses-de-uma-formula-matematica-server](cap07/ex7_9.1/)
+<br>
+[exibir-uma-arvore-de-estrelas](cap07/ex7_10/)
 
 <h4> 7.10- Exercícios Strings e datas!</h4>
 <h4> 7.11- Considerações finais de Strings e datas</h4>
