@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&display=swap');
+
+:root {
+    --background-body: #e0cf6f;
+    --bg-body: #0f172a;
+    /* Slate dark moderno */
+    --bg-card: #1e293b;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --primary: #6366f1;
+    /* Indigo moderno */
+    --footer-bg: #0b1120;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    font-family: "Agrave Pro", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    flex-direction: column;
+
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; */
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.challenge-banner {
+    background-color: var(--bg-card);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem 0;
+}
+
+.challenge-banner p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.badge {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.main-content {
+    flex: 1; /* O flex: 1 faz o main se expandir e empurrar o footer para o chão da tela */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.card {
+    background: var(--bg-card);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Card Container Principal */
+.card-generator {
+    background: var(--bg-card);
+    padding: 2.5rem;
+    border-radius: 16px;
+    width: 100%;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card-generator h1 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Formulário de Input alinhado */
+.installment-form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap; /* Não quebra em telas menores */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.input-group input {
+    background: #0b1120;
+    border: 1px solid #334155;
+    color: var(--text-main);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-group input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: filter 0.2s, transform 0.1s;
+}
+
+.btn-primary:hover {
+    filter: brightness(1.15);
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+}
+
+/* ========================================================
+   O SEGREDO DOS CARDS LADO A LADO: CSS GRID RESPONSIVO
+   ======================================================== */
+.installments-grid {
+    display: grid;
+    /* Cria colunas automáticas de no mínimo 180px e divide o espaço restante */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.25rem;
+}
+
+/* Design do Card Individual */
+.installment-card {
+    background-color: #0b1120;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+/* Pequeno detalhe estético no topo de cada card */
+.installment-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--primary);
+}
+
+.installment-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--primary);
+}
+
+.card-number {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.card-date {
+    font-size: 1.15rem;
+    color: #38bdf8; /* Azul cyan moderno de destaque */
+    font-weight: 600;
+}
+
+.app-footer {
+    background-color: var(--footer-bg);
+    padding: 0.5rem 0; /* Padding vertical pequeno = Faixa Estreita */
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem; /* Espaçamento moderno sem gambiarras */
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.footer-content .divider {
+    opacity: 0.4;
+}
+
+@media (max-width: 480px) {
+    .footer-content {
+        flex-direction: column; /* No celular vira uma coluna se faltar espaço */
+        gap: 0.25rem;
+    }
+    .footer-content .divider {
+        display: none; /* Esconde a barra '|' no mobile */
+    }
+}

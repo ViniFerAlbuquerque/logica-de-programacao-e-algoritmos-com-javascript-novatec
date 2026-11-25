@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerando as datas de vencimentos de parcelas!</title>
+</head>
+<body>
+       <header class="challenge-banner">
+            <div class="container">
+                <span class="badge">Desafio Prático!</span>
+                <p>
+                    Elaborar um programa que solicite um número de parcelas que devem ser geradas e calcule a data de cada uma dessas parcelas, uma para cada mês, a partir do programa, considerando que a data atual seja 5 de janeiro de 2022.
+                </p>
+            </div>
+       </header>
+
+   
+    <main class="main-content container">
+        <!-- <section class="card">
+            <h1>Gerando as datas de vencimentos das parcelas:</h1>
+            <p class="placeholder-text">Área da aplicação interativa...</p>
+        </section> -->
+        <section class="card-generator">
+        <h1>Gerando as datas de vencimentos das parcelas:</h1>
+        
+        <!-- Formulário de Entrada -->
+        <form class="installment-form" onsubmit="event.preventDefault();">
+            <div class="input-group">
+                <label for="installments">Quantas Parcelas?</label>
+                <input type="number" id="installments" min="1" max="72" value="6" required>
+            </div>
+            <button type="button" class="btn-primary">Gerar Parcelas</button>
+        </form>
+       
+        <div class="installments-grid">
+            <article class="installment-card">
+                <span class="card-number">1ª Parcela</span>
+                <strong class="card-date">05/02/2022</strong>
+            </article>
+
+            <article class="installment-card">
+                <span class="card-number">2ª Parcela</span>
+                <strong class="card-date">05/03/2022</strong>
+            </article>
+
+            <article class="installment-card">
+                <span class="card-number">3ª Parcela</span>
+                <strong class="card-date">05/04/2022</strong>
+            </article>
+
+            <article class="installment-card">
+                <span class="card-number">4ª Parcela</span>
+                <strong class="card-date">05/05/2022</strong>
+            </article>
+
+            <article class="installment-card">
+                <span class="card-number">5ª Parcela</span>
+                <strong class="card-date">05/06/2022</strong>
+            </article>
+
+            <article class="installment-card">
+                <span class="card-number">6ª Parcela</span>
+                <strong class="card-date">05/07/2022</strong>
+            </article>
+        </div>
+    </section>
+    </main>
+
+        <footer class="app-footer">
+        <div class="container footer-content">
+            <p>ViniFerAlbuquerque</p>
+            <span class="divider">|</span>
+            <p>Direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="server.js"></script>
+</body>
+</html>
