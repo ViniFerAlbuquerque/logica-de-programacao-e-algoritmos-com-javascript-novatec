@@ -426,7 +426,9 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 <br>
 
 <img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap07/ex7_4/img/Captura%20de%20Tela.png?raw=true">
+<br>
 
+[programa-nome-no-cracha](cap07/ex7_4)
 <h4> 7.5 - Dividir a string em elementos de vetor!</h4>
 
 [split](cap07/split/)
@@ -444,7 +446,22 @@ Essa linha usa Array.prototype.find() para procurar um candidato com o mesmo nom
 <h4> 7.8 - Manipulação de datas!</h4>
 
 [data-de-amanha](cap07/data-de-amanha/)
+
+<br>
+
+<img src="https://github.com/ViniFerAlbuquerque/logica-de-programacao-e-algoritmos-com-javascript-novatec/blob/main/cap07/ex7_8/img/caixa-da-loja.png?raw=true">
+<br>
+
+[programa-caixa-da-loja](cap07/ex7_8)
+
 <h4> 7.9 - Strings e datas com Node.js</h4>
+
+[programa-para-analisar-os-parenteses-de-uma-formula-matematica](cap07/ex7_9/)
+<br>
+[programa-para-analisar-os-parenteses-de-uma-formula-matematica-server](cap07/ex7_9.1/)
+<br>
+[exibir-uma-arvore-de-estrelas](cap07/ex7_10/)
+
 <h4> 7.10- Exercícios Strings e datas!</h4>
 <h4> 7.11- Considerações finais de Strings e datas</h4>
 <h3>8 CAPÍTULO 8 ■ Funções e eventos!</h3>
